@@ -1,0 +1,634 @@
+/* Sidebar image, 280x280 px plz */
+
+h1.whoaversename{
+    background: url(https://i.imgur.com/x6HHOWa.jpg);
+    text-align: center;
+    height: 280px;
+    width: 100%;
+    border-radius: 10px;  
+}
+
+/* "This gives the background with the font for the text of the flair. */
+
+
+a:before{background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-right: 3px;padding: 2px 4px;vertical-align: middle;}
+
+/* Special Flairs */
+
+a[href$="/user/Miaiam"]:before
+{ content: "Likes Homer's D"; }
+
+a[href$="/user/Duress56"]:before
+{ content: "Convicted Child Molester"; }
+
+/* "Verified Shitlord" flair FOLLOW THE WAY FLAIRS ARE SETUP */
+
+a[href$="/user/NotMrS"]:before,
+a[href$="/user/PM_ME_UR_SOURCE_CODE"]:before,
+a[href$="/user/E_Neutrality"]:before,
+a[href$="/user/shatomirputin"]:before,
+a[href$="/user/FPHForever"]:before,
+a[href$="/user/notarealperson"]:before,
+a[href$="/user/veetack"]:before,
+a[href$="/user/Calorie-Kin"]:before,
+a[href$="/user/KingdomN"]:before,
+a[href$="/user/ImLying"]:before,
+a[href$="/user/Ellvarah"]:before,
+a[href$="/user/julbe43"]:before,
+a[href$="/user/fuoco"]:before,
+a[href$="/user/TotalCult"]:before,
+a[href$="/user/tom-bombadil"]:before,
+a[href$="/user/IamtheDreadLobster"]:before,
+a[href$="/user/thisuserhatesyou"]:before,
+a[href$="/user/Phillyshitlord"]:before,
+a[href$="/user/nomi_malone"]:before,
+a[href$="/user/Pathogenesis25"]:before,
+a[href$="/user/Shitty_McShitlord"]:before,
+a[href$="/user/BigBoss"]:before,
+a[href$="/user/FrozenKlondyke"]:before,
+a[href$="/user/Sythek"]:before,
+a[href$="/user/vordster"]:before,
+a[href$="/user/DoctorKoctor"]:before,
+a[href$="/user/RobertPaulson"]:before,
+a[href$="/user/wbfla"]:before,
+a[href$="/user/Joebro88"]:before,
+a[href$="/user/AndrossAngel"]:before,
+a[href$="/user/swizzlesticks"]:before,
+a[href$="/user/dcs2000"]:before,
+a[href$="/user/silvester"]:before,
+a[href$="/user/dontqueefonmebro"]:before,
+a[href$="/user/door_"]:before,
+a[href$="/user/TheEnzo"]:before,
+a[href$="/user/wolflink009"]:before,
+a[href$="/user/Invisible_Nomad"]:before,
+a[href$="/user/Melbourne43"]:before,
+a[href$="/user/Adler"]:before,
+a[href$="/user/fatness"]:before,
+a[href$="/user/cleftscout"]:before,
+a[href$="/user/Maisy"]:before,
+a[href$="/user/Eysenor"]:before,
+a[href$="/user/GreyFox"]:before,
+a[href$="/user/floris"]:before,
+a[href$="/user/Morgasm"]:before,
+a[href$="/user/GrimRipple"]:before,
+a[href$="/user/Ruston"]:before,
+a[href$="/user/xxlthrowaway"]:before,
+a[href$="/user/sketchyadvice77"]:before,
+a[href$="/user/Swoledamort"]:before,
+a[href$="/user/Chodder"]:before,
+a[href$="/user/diefatfucks"]:before,
+a[href$="/user/CutTheCurby"]:before,
+a[href$="/user/MyFatHateFlows"]:before,
+a[href$="/user/uLookFatInThoseGenes"]:before,
+a[href$="/user/Oveneise"]:before,
+a[href$="/user/Elysium"]:before,
+a[href$="/user/Fatty_McGoo"]:before,
+a[href$="/user/zeonin"]:before,
+a[href$="/user/HoodedHoodlum"]:before,
+a[href$="/user/CheckYourFupa"]:before,
+a[href$="/user/Kahlo"]:before,
+a[href$="/user/tuxedo"]:before,
+a[href$="/user/CyanRyan"]:before,
+a[href$="/user/greenymaco"]:before,
+a[href$="/user/CttCJim"]:before,
+a[href$="/user/Landao"]:before,
+a[href$="/user/fryabetes"]:before,
+a[href$="/user/crimsonpowder"]:before,
+a[href$="/user/tisi"]:before,
+a[href$="/user/Era"]:before,
+a[href$="/user/4kneecator"]:before,
+a[href$="/user/shitlordstrugglez"]:before,
+a[href$="/user/bkmnalpha"]:before,
+a[href$="/user/larionov"]:before,
+a[href$="/user/LoveThighGap"]:before,
+a[href$="/user/hotmusician"]:before,
+a[href$="/user/ILoveFPH"]:before,
+a[href$="/user/Lenvaldier"]:before,
+a[href$="/user/herr_scheisse"]:before,
+a[href$="/user/FatPeopleHateMe"]:before,
+a[href$="/user/Reddifugee"]:before,
+a[href$="/user/orange-avocado"]:before,
+a[href$="/user/Grimace_Reaper"]:before,
+a[href$="/user/todbert"]:before,
+a[href$="/user/ppbox"]:before,
+a[href$="/user/thorgin"]:before,
+a[href$="/user/Wolfthorn"]:before,
+a[href$="/user/AlanWake"]:before,
+a[href$="/user/QuillQuote"]:before,
+a[href$="/user/Fallkniven"]:before,
+a[href$="/user/CrackerBInebriated"]:before,
+a[href$="/user/underthemotherboard"]:before,
+a[href$="/user/redditHasCooties "]:before,
+a[href$="/user/MC_BarelyLegible"]:before,
+a[href$="/user/Lord_Shitlord"]:before,
+a[href$="/user/bieberhole_69"]:before,
+a[href$="/user/SetsAndReps"]:before,
+a[href$="/user/ConnieDeShuns"]:before,
+a[href$="/user/FatPeopleHateAccount"]:before,
+a[href$="/user/Daimao"]:before,
+a[href$="/user/LJM"]:before,
+a[href$="/user/ThinkingClear"]:before,
+a[href$="/user/jrlascody"]:before,
+a[href$="/user/iloveNoseRings"]:before,
+a[href$="/user/firekarat"]:before,
+a[href$="/user/PureFix"]:before,
+a[href$="/user/diggeler"]:before,
+a[href$="/user/yourhero7"]:before,
+a[href$="/user/CttCJim"]:before,
+a[href$="/user/technician90"]:before,
+a[href$="/user/cassis"]:before,
+a[href$="/user/Shimmy"]:before,
+a[href$="/user/joelmooner"]:before,
+a[href$="/user/talones"]:before,
+a[href$="/user/LazarusLong"]:before,
+a[href$="/user/ogcook"]:before,
+a[href$="/user/Allchiefedup24"]:before,
+a[href$="/user/SouthPark"]:before,
+a[href$="/user/BWBHAMMER"]:before,
+a[href$="/user/archers_bows9"]:before,
+a[href$="/user/Infiltrator"]:before,
+a[href$="/user/Stinkybeetusfoot"]:before,
+a[href$="/user/Anonymous_Coward"]:before,
+a[href$="/user/danunit"]:before,
+a[href$="/user/imnotyourfriendpal"]:before,
+a[href$="/user/Tuna_n_Rice"]:before,
+a[href$="/user/rshackleford252525"]:before,
+a[href$="/user/CrackingYs"]:before,
+a[href$="/user/the_foreigner"]:before
+{ content: "Verified Shitlord"; }
+
+/* "Verified Shitlady" flair */
+
+a[href$="/user/GenevieveJenkins"]:before,
+a[href$="/user/Thinchick"]:before,
+a[href$="/user/fatis4punching"]:before,
+a[href$="/user/strings"]:before,
+a[href$="/user/bethygal83"]:before,
+a[href$="/user/aretemis"]:before,
+a[href$="/user/redherpbluederp"]:before,
+a[href$="/user/Trickster"]:before,
+a[href$="/user/32DDbitches"]:before,
+a[href$="/user/Entitilitus"]:before,
+a[href$="/user/MasterBettyPain"]:before,
+a[href$="/user/dotty"]:before,
+a[href$="/user/Skinny_McJiggles"]:before,
+a[href$="/user/naked_ditchdigger"]:before,
+a[href$="/user/SacoDeHuesos"]:before,
+a[href$="/user/HonorYourBeetus"]:before,
+a[href$="/user/Antimony"]:before,
+a[href$="/user/shitladybird"]:before,
+a[href$="/user/commandershitlorde"]:before,
+a[href$="/user/SassyShitlady"]:before,
+a[href$="/user/fearsnight"]:before,
+a[href$="/user/redjenny"]:before,
+a[href$="/user/Thippe"]:before,
+a[href$="/user/Catcat"]:before,
+a[href$="/user/longlostbleu"]:before,
+a[href$="/user/wolfgirlnaya"]:before,
+a[href$="/user/TheSashimiTamale"]:before,
+a[href$="/user/VegetarianZombie1"]:before,
+a[href$="/user/absmom20"]:before,
+a[href$="/user/IAHA"]:before,
+a[href$="/user/OgreSounds"]:before,
+a[href$="/user/Gidg"]:before,
+a[href$="/user/DatVitaminD"]:before,
+a[href$="/user/dotty"]:before,
+a[href$="/user/nothinggoddammit"]:before,
+a[href$="/user/horse__tornado"]:before,
+a[href$="/user/SeeYouNextTuesday"]:before,
+a[href$="/user/theepilepticferret"]:before,
+a[href$="/user/iscrapedmyknee"]:before,
+a[href$="/user/ShiteLorde"]:before,
+a[href$="/user/masyday"]:before
+{ content: "Verified Shitlady"; }
+
+
+
+/* Mod Flairs */
+
+a[href$="/user/notarealperson"]:before {color: #666;content: "notaflair"; }
+ 
+a[href$="/user/FLAIR"]:before { background: #801cd6;content: "Shiny Hitler"; }
+ 
+a[href$="/user/fuckredditcensorship"]:before { background: #f95050;content: "Mediocre Hitler"; }
+ 
+a[href$="/user/The_Penis_Wizard"]:before { background: #f750f9;content: "Literally Hitler"; }
+ 
+a[href$="/user/Gollum"]:before { background: #ffa500;content: "Wishful Hitler"; }
+ 
+a[href$="/user/homersimpson"]:before { background: #2ad42a;content: "Metaphorically Hitler"; }
+ 
+a[href$="/user/HomerSimpson"]:before { background: #2ad42a;content: "Metaphorically Hitler"; }
+ 
+a[href$="/user/shmuklidooha"]:before { background: #00c5ff;content: "Figuratively Hitler"; }
+ 
+a[href$="/user/SportyStrawberry"]:before { background: #e31860;content: "Actively Hitler"; }
+
+a[href$="/user/sportystrawberry"]:before { background: #e31860;content: "Actively Hitler"; }
+
+a[href$="/user/12_Years_A_Toucan"]:before { background: #e1d812; font-color: red;content: "Hitler's Toucan"; }
+ 
+a[href$="/user/FreedomToast"]:before { background: #295EFF;content: "Scientifically Hitler"; }
+
+
+/* This makes it so flairs don't show up at the top of the page.  */
+
+
+ a[title="Profile"]:before,a.upvoatsGiven:before{content:none;}
+
+
+
+/* ! Header
+-------------------------------------------------------------------------------- */
+#header {
+  background: 
+url(https://i.imgur.com/EXqWwgp.png) center no-repeat, 
+-webkit-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 90px), 
+-webkit-repeating-linear-gradient(45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 90px), 
+-webkit-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 180px), 
+-webkit-repeating-linear-gradient(45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 180px), 
+-webkit-repeating-linear-gradient(45deg, rgba(255, 255, 255, .5), rgba(255, 255, 255, .5) 1px, transparent 1px, transparent 180px), 
+-webkit-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .5) , rgba(255, 255, 255, .5) 1px, transparent 1px, transparent 180px), 
+-webkit-repeating-linear-gradient(45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 90px), 
+-webkit-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 90px);
+
+  background: 
+url(https://i.imgur.com/EXqWwgp.png) center no-repeat, 
+-moz-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 90px), 
+-moz-repeating-linear-gradient(45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 90px), 
+-moz-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 180px), 
+-moz-repeating-linear-gradient(45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 180px), 
+-moz-repeating-linear-gradient(45deg, rgba(255, 255, 255, .5), rgba(255, 255, 255, .5) 1px, transparent 1px, transparent 180px), 
+-moz-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .5) , rgba(255, 255, 255, .5) 1px, transparent 1px, transparent 180px), 
+-moz-repeating-linear-gradient(45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 90px), 
+-moz-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 90px);
+
+  background: 
+url(https://i.imgur.com/WUR3Z8h.png) center no-repeat, 
+-o-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 90px), 
+-o-repeating-linear-gradient(45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 90px), 
+-o-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 180px), 
+-o-repeating-linear-gradient(45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 180px), 
+-o-repeating-linear-gradient(45deg, rgba(255, 255, 255, .5), rgba(255, 255, 255, .5) 1px, transparent 1px, transparent 180px), 
+-o-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .5) , rgba(255, 255, 255, .5) 1px, transparent 1px, transparent 180px), 
+-o-repeating-linear-gradient(45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 90px), 
+-o-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 90px);
+
+  background: 
+url(https://i.imgur.com/EXqWwgp.png) center no-repeat, 
+repeating-linear-gradient(-45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 90px), 
+repeating-linear-gradient(45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 90px), 
+repeating-linear-gradient(-45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 180px), 
+repeating-linear-gradient(45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 180px), 
+repeating-linear-gradient(45deg, rgba(255, 255, 255, .5), rgba(255, 255, 255, .5) 1px, transparent 1px, transparent 180px), 
+repeating-linear-gradient(-45deg, rgba(255, 255, 255, .5) , rgba(255, 255, 255, .5) 1px, transparent 1px, transparent 180px), 
+repeating-linear-gradient(45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 90px), 
+repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 90px);
+
+  background-color: #181818;
+  background-size: 1820px 100%, 256px 256px, 256px 256px, 256px 256px, 256px 256px, 256px 256px, 256px 256px, 256px 256px, 256px 256px;
+    height: 225px;
+    width: 100%
+    margin: 0;
+}
+
+#header:after {
+  content: " ";
+  font-size: -webkit-xxx-large;
+  color: white;
+  border-top: azure;
+  font-weight: 400;
+  font-style: italic;
+  font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
+  width: 100%;
+  position: absolute;
+  height: 60px;
+  text-align: center;
+  top: 80px;
+}
+
+@media ( max-width: 550px ) {
+#header {
+    background-size: 300%;
+    height: 250px;
+}
+}
+    #header-container,
+    #sr-header-area {
+        background: transparent;
+        border: 0;
+    }
+        #sr-header-area .selected a { color: #317FB7; }
+
+        #sr-header-area .sr-list { margin-right: 59px; }
+            .sr-list li a { color: #D0D0D0; }
+
+            #sr-bar li a { color: #999; }
+            #sr-header-area:hover #sr-bar li a { color: #D0D0D0; }
+
+        #header-img {
+            background: url( https://i.imgur.com/Yc8q9AO.png );
+            padding-left: 112px;
+        }
+
+        #sr-more-link:hover {
+            color: #FFF;
+            background: #317FB7;
+        }
+
+            /* ! Header | Sub menu
+            -------------------------------------------------------------------------------- */
+            .whoaSubscriptionMenu li ul {
+                border: 1px solid;
+                border-color: #333 #222 #222;
+                box-shadow: 3px 3px 3px hsla( 0,0%,0%,0.2 );
+            }
+                .whoaSubscriptionMenu li ul li a:link,
+                .whoaSubscriptionMenu li ul li a:visited {
+                    background: #333;
+                    border-bottom: 1px solid #222;
+                    color: #FFF;
+                }
+                .whoaSubscriptionMenu li ul li a:hover {
+                    background: #47B1FC;
+                    background: -webkit-linear-gradient( top,#47B1FC,#3797DC );
+                    background:    -moz-linear-gradient( top,#47B1FC,#3797DC );
+                    background:     -ms-linear-gradient( top,#47B1FC,#3797DC );
+                    background:      -o-linear-gradient( top,#47B1FC,#3797DC );
+                    color: #FFF !important;
+                }
+
+            /* Menu drop arrow icon */
+            .drop-arrow { border-color: #D0D0D0 transparent transparent; }
+
+        #sr-more-link {
+            background: none;
+            color: #CCC;
+        }
+
+        /* ! Header | Sub name
+        -------------------------------------------------------------------------------- */
+        .pagename {
+            font-size: 24px;
+            letter-spacing: -1px;
+            text-transform: uppercase;
+            margin-bottom: 9px;
+        }
+            .pagename a {
+                color: #E0E0E0;
+                border-style: solid none;
+                border-width: 2px;
+                border-color: transparent;
+                padding: 0;
+                margin: 0 12px;
+            }
+            .pagename a:hover {
+                color: #E0E0E0;
+                border-style: solid none;
+                border-width: 2px;
+                border-color: #E0E0E0;
+                text-decoration: none;
+            }
+
+        /* ! Header | Tab menu
+        -------------------------------------------------------------------------------- */
+        .tabmenu { font-size: 16px; }
+            .tabmenu li { text-transform: uppercase; }
+                .tabmenu li a {
+                    margin: 0 3px;
+                    padding: 6px 0;
+                }
+
+                .tabmenu li.disabled a {
+                    color: #E0E0E0;background: transparent;
+                }
+                .tabmenu li.disabled{background: none;}
+                .tabmenu li.disabled a,
+                .tabmenu li.selected a { border: 0; border-radius: 0; }
+                .tabmenu li.disabled a:hover {
+                    color: #E0E0E0;
+                    background: none;
+                    border: 0;
+                    border-style: solid none;
+                    border-width: 2px;
+                    border-color: #E0E0E0;
+                    box-shadow: none;
+                }
+                .tabmenu li.disabled a.contribute {
+                    background: none;
+                    border: 0;
+                    color: #D681FF;
+                    font-weight: normal;
+                }
+                .tabmenu li.disabled a.contribute:hover {
+                    background: none;
+                    color: #D681FF;
+                    border-style: solid none;
+                    border-width: 2px;
+                    border-color: #D681FF;
+                }
+
+                .tabmenu li.selected a {
+                    background: none;
+                    border: 0;
+                    box-shadow: none;
+                    color: #E0E0E0;
+                    font-weight: bold;
+                }
+                .tabmenu li.selected a:hover {
+                    color: #E0E0E0;
+                    border-style: solid none;
+                    border-width: 2px;
+                    border-color: #E0E0E0;
+                }
+                .tabmenu li.selected a.contribute {
+                    background: none;
+                    border: 0;
+                    color: #D681FF;
+                    font-weight: bold;
+                }
+                .tabmenu li.selected a.contribute:hover {
+                    background: none;
+                    color: #D681FF;
+                    border-style: solid none;
+                    border-width: 2px;
+                    border-color: #D681FF;
+                }
+
+        /* ! Header | Account
+        -------------------------------------------------------------------------------- */
+        .logged-in {
+            color: #D0D0D0;
+            background: none;
+            border: 0;
+            border-radius: 0;
+        }
+        .logged-out {
+            color: #D0D0D0;
+            background: none;
+            border: 0;
+            border-radius: 0;
+        }
+            #header-account a,
+            #header-account .logged-out a { color: #D0D0D0; }
+            #header-account a:hover { color: #317FB7; }
+
+            #header-account .separator {
+                margin: 0;
+                visibility: hidden;
+            }
+
+/* ! Container
+-------------------------------------------------------------------------------- */
+#container {
+    background: none;
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+}
+
+/* Submit Buttons */
+
+.md h2, .side .btn-whoaverse, btn-default {
+    background: #333333;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border:0px;
+}
+.side a.btn-whoaverse { color: #fff;
+    font-size:1em; 
+    border: 2px solid #333;}
+.side .btn-whoaverse:hover {
+    background: #666666;
+    border: 2px solid #000;
+}
+
+
+        /* ! Container | Sidebar | Titlebox
+        -------------------------------------------------------------------------------- */
+
+.titlebox h1 a { display:none;}
+        /* ! Downvote message
+        -------------------------------------------------------------------------------- */
+        .arrow-downvote:after{
+           display:block;
+           visibility:hidden;
+           position:absolute;
+           z-index:1000;
+           margin-top:-6px;
+           margin-left:32px;
+           padding:12px;
+           background-color:rgba(79,77,192,0.0);
+           border:none;
+           border-radius:2px;
+           color:rgba(255,255,255,0);
+           content:"Keep clicking piggy.";
+           text-align:center;
+           letter-spacing:1px;
+           font-weight:400;
+           font-size:13px;
+           transition:all .25s ease;
+           pointer-events:none
+        }
+
+        .arrow-downvote:hover:after{
+           visibility:visible;
+           background-color:rgba(24,24,24,0.9);
+           color:#FFF;
+           margin-left:48px
+        }
+
+        .titlebox {
+            margin: 10px -20px 0;
+            padding: 0px 20px;
+            width: auto !important;
+        }
+            .titlebox > h1 {
+                border-bottom: 1px solid #999;
+                font-size: 22px;
+                font-weight: normal;
+                letter-spacing: -1px;
+                margin: 0 0 20px;
+                padding: 0 0 10px;
+                text-align: center;
+                text-transform: uppercase;
+            }
+                .titlebox h1 a:hover { color: inherit; }
+
+            .titlebox .btn-whoaverse-paging, .titlebox .btn-unsub  {
+                background: #333;
+                border: 2px solid #333;
+                border-radius: 5px;
+                display: block;
+                color: #EEE;
+                font-size: 1em;
+                float:left;
+                font-weight: bold;
+                letter-spacing: 2px;
+                margin-bottom: 5px;
+                padding: 6px 0;
+                text-transform: uppercase;
+                width: 46%;
+                margin:0px 2% 10px;
+            }
+            .titlebox .btn-sub{background: #363;border: 2px solid #363;}
+            .titlebox .btn-whoaverse-paging:hover, .titlebox .btn-unsub:hover {
+                background: #666;
+                border: 2px solid #000;
+                color: #EEE;
+            }
+            .titlebox .btn-sub:hover{background: #393;border: 2px solid #030;}
+
+            .titlebox .subscribers, .titlebox .users-online {
+                display: block;
+                margin-bottom: 10px;
+                text-align: center;
+            }
+
+            .titlebox .md { padding-bottom: 20px; }
+                .titlebox .md a { color: #47B1FC; }
+                .titlebox .md a:hover { color: #D681FF; }
+
+                .titlebox .md h1,
+                .titlebox .md h2,
+                .titlebox .md h3,
+                .titlebox .md h4,
+                .titlebox .md h5,
+                .titlebox .md h6 {
+                    border: 0;
+                    font-weight: bold;
+                    text-align: center;
+                }
+                .titlebox .md h1 { font-size: 18px; }
+                .titlebox .md h2 { font-size: 16px; }
+                .titlebox .md h3 { font-size: 15px; }
+                .titlebox .md h4,
+                .titlebox .md h5,
+                .titlebox .md h6 { font-size: 14px; }
+
+            .titlebox .bottom {
+                color: inherit;
+                border-top: 1px solid #999;
+                padding: 10px 0 0;
+            }
+                .titlebox .bottom a { color: #47B1FC; }
+                .titlebox .bottom a:hover { color: #FF8821; }
+}
+
+
+/* ! Mobile
+-------------------------------------------------------------------------------- */
+@media ( max-width: 870px ) {
+    .content { margin-right: 0; }
+    .side { width: 300px; }
+   
+}
+
+@media ( max-width: 700px ) {
+    .tabmenu li.disabled a {
+        background: none;
+        box-shadow: none;
+    }
+}
