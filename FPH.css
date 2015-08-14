@@ -1,240 +1,270 @@
 /* Sidebar image, 280x280 px plz */
 
-h1.whoaversename{
-    background: url(https://i.imgur.com/x6HHOWa.jpg);
-    text-align: center;
-    height: 280px;
+.md h4{
+    background: url(https://i.imgur.com/rwESgN3.png);
+    height: 210px;
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+.md h4 a{
+    line-height: 210px;
     width: 100%;
     border-radius: 10px;  
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+     display:inline-block;
 }
-
+.titlebox h1 a { #display:none;
+}
+.whoaversename img {float:right;display:none;}
 /* "This gives the background with the font for the text of the flair. */
 
-
-a:before{background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-right: 3px;padding: 2px 4px;vertical-align: middle;}
+a:after{background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-right: 3px;padding: 2px 4px;vertical-align: middle;}
 
 /* Special Flairs */
 
-a[href$="/user/Miaiam"]:before
+a[href$="/user/Swoledamort"]:after
+{ content: "Too Many Dicks in Ass"; }
+
+a[href$="/user/the_penis_apprentice"]:after
+{ content: "Sucks too much dick"; }
+
+a[href$="/user/DatViet"]:after
+{ content: "Honorary Aryan"; }
+
+a[href$="/user/Miaiam"]:after
 { content: "Likes Homer's D"; }
 
-a[href$="/user/Duress56"]:before
+a[href$="/user/LardHammer"]:after
+{ content: "Destroyer of Ham Planets"; }
+
+a[href$="/user/Duress56"]:after
 { content: "Convicted Child Molester"; }
 
 /* "Verified Shitlord" flair FOLLOW THE WAY FLAIRS ARE SETUP */
 
-a[href$="/user/NotMrS"]:before,
-a[href$="/user/PM_ME_UR_SOURCE_CODE"]:before,
-a[href$="/user/E_Neutrality"]:before,
-a[href$="/user/shatomirputin"]:before,
-a[href$="/user/FPHForever"]:before,
-a[href$="/user/notarealperson"]:before,
-a[href$="/user/veetack"]:before,
-a[href$="/user/Calorie-Kin"]:before,
-a[href$="/user/KingdomN"]:before,
-a[href$="/user/ImLying"]:before,
-a[href$="/user/Ellvarah"]:before,
-a[href$="/user/julbe43"]:before,
-a[href$="/user/fuoco"]:before,
-a[href$="/user/TotalCult"]:before,
-a[href$="/user/tom-bombadil"]:before,
-a[href$="/user/IamtheDreadLobster"]:before,
-a[href$="/user/thisuserhatesyou"]:before,
-a[href$="/user/Phillyshitlord"]:before,
-a[href$="/user/nomi_malone"]:before,
-a[href$="/user/Pathogenesis25"]:before,
-a[href$="/user/Shitty_McShitlord"]:before,
-a[href$="/user/BigBoss"]:before,
-a[href$="/user/FrozenKlondyke"]:before,
-a[href$="/user/Sythek"]:before,
-a[href$="/user/vordster"]:before,
-a[href$="/user/DoctorKoctor"]:before,
-a[href$="/user/RobertPaulson"]:before,
-a[href$="/user/wbfla"]:before,
-a[href$="/user/Joebro88"]:before,
-a[href$="/user/AndrossAngel"]:before,
-a[href$="/user/swizzlesticks"]:before,
-a[href$="/user/dcs2000"]:before,
-a[href$="/user/silvester"]:before,
-a[href$="/user/dontqueefonmebro"]:before,
-a[href$="/user/door_"]:before,
-a[href$="/user/TheEnzo"]:before,
-a[href$="/user/wolflink009"]:before,
-a[href$="/user/Invisible_Nomad"]:before,
-a[href$="/user/Melbourne43"]:before,
-a[href$="/user/Adler"]:before,
-a[href$="/user/fatness"]:before,
-a[href$="/user/cleftscout"]:before,
-a[href$="/user/Maisy"]:before,
-a[href$="/user/Eysenor"]:before,
-a[href$="/user/GreyFox"]:before,
-a[href$="/user/floris"]:before,
-a[href$="/user/Morgasm"]:before,
-a[href$="/user/GrimRipple"]:before,
-a[href$="/user/Ruston"]:before,
-a[href$="/user/xxlthrowaway"]:before,
-a[href$="/user/sketchyadvice77"]:before,
-a[href$="/user/Swoledamort"]:before,
-a[href$="/user/Chodder"]:before,
-a[href$="/user/diefatfucks"]:before,
-a[href$="/user/CutTheCurby"]:before,
-a[href$="/user/MyFatHateFlows"]:before,
-a[href$="/user/uLookFatInThoseGenes"]:before,
-a[href$="/user/Oveneise"]:before,
-a[href$="/user/Elysium"]:before,
-a[href$="/user/Fatty_McGoo"]:before,
-a[href$="/user/zeonin"]:before,
-a[href$="/user/HoodedHoodlum"]:before,
-a[href$="/user/CheckYourFupa"]:before,
-a[href$="/user/Kahlo"]:before,
-a[href$="/user/tuxedo"]:before,
-a[href$="/user/CyanRyan"]:before,
-a[href$="/user/greenymaco"]:before,
-a[href$="/user/CttCJim"]:before,
-a[href$="/user/Landao"]:before,
-a[href$="/user/fryabetes"]:before,
-a[href$="/user/crimsonpowder"]:before,
-a[href$="/user/tisi"]:before,
-a[href$="/user/Era"]:before,
-a[href$="/user/4kneecator"]:before,
-a[href$="/user/shitlordstrugglez"]:before,
-a[href$="/user/bkmnalpha"]:before,
-a[href$="/user/larionov"]:before,
-a[href$="/user/LoveThighGap"]:before,
-a[href$="/user/hotmusician"]:before,
-a[href$="/user/ILoveFPH"]:before,
-a[href$="/user/Lenvaldier"]:before,
-a[href$="/user/herr_scheisse"]:before,
-a[href$="/user/FatPeopleHateMe"]:before,
-a[href$="/user/Reddifugee"]:before,
-a[href$="/user/orange-avocado"]:before,
-a[href$="/user/Grimace_Reaper"]:before,
-a[href$="/user/todbert"]:before,
-a[href$="/user/ppbox"]:before,
-a[href$="/user/thorgin"]:before,
-a[href$="/user/Wolfthorn"]:before,
-a[href$="/user/AlanWake"]:before,
-a[href$="/user/QuillQuote"]:before,
-a[href$="/user/Fallkniven"]:before,
-a[href$="/user/CrackerBInebriated"]:before,
-a[href$="/user/underthemotherboard"]:before,
-a[href$="/user/redditHasCooties "]:before,
-a[href$="/user/MC_BarelyLegible"]:before,
-a[href$="/user/Lord_Shitlord"]:before,
-a[href$="/user/bieberhole_69"]:before,
-a[href$="/user/SetsAndReps"]:before,
-a[href$="/user/ConnieDeShuns"]:before,
-a[href$="/user/FatPeopleHateAccount"]:before,
-a[href$="/user/Daimao"]:before,
-a[href$="/user/LJM"]:before,
-a[href$="/user/ThinkingClear"]:before,
-a[href$="/user/jrlascody"]:before,
-a[href$="/user/iloveNoseRings"]:before,
-a[href$="/user/firekarat"]:before,
-a[href$="/user/PureFix"]:before,
-a[href$="/user/diggeler"]:before,
-a[href$="/user/yourhero7"]:before,
-a[href$="/user/CttCJim"]:before,
-a[href$="/user/technician90"]:before,
-a[href$="/user/cassis"]:before,
-a[href$="/user/Shimmy"]:before,
-a[href$="/user/joelmooner"]:before,
-a[href$="/user/talones"]:before,
-a[href$="/user/LazarusLong"]:before,
-a[href$="/user/ogcook"]:before,
-a[href$="/user/Allchiefedup24"]:before,
-a[href$="/user/SouthPark"]:before,
-a[href$="/user/BWBHAMMER"]:before,
-a[href$="/user/archers_bows9"]:before,
-a[href$="/user/Infiltrator"]:before,
-a[href$="/user/Stinkybeetusfoot"]:before,
-a[href$="/user/Anonymous_Coward"]:before,
-a[href$="/user/danunit"]:before,
-a[href$="/user/imnotyourfriendpal"]:before,
-a[href$="/user/Tuna_n_Rice"]:before,
-a[href$="/user/rshackleford252525"]:before,
-a[href$="/user/CrackingYs"]:before,
-a[href$="/user/the_foreigner"]:before
+a[href$="/user/shitlordcaligula"]:after,
+a[href$="/user/NotMrS"]:after,
+a[href$="/user/PM_ME_UR_SOURCE_CODE"]:after,
+a[href$="/user/E_Neutrality"]:after,
+a[href$="/user/shatomirputin"]:after,
+a[href$="/user/FPHForever"]:after,
+a[href$="/user/notarealperson"]:after,
+a[href$="/user/veetack"]:after,
+a[href$="/user/Calorie-Kin"]:after,
+a[href$="/user/KingdomN"]:after,
+a[href$="/user/ImLying"]:after,
+a[href$="/user/Ellvarah"]:after,
+a[href$="/user/julbe43"]:after,
+a[href$="/user/fuoco"]:after,
+a[href$="/user/TotalCult"]:after,
+a[href$="/user/tom-bombadil"]:after,
+a[href$="/user/IamtheDreadLobster"]:after,
+a[href$="/user/thisuserhatesyou"]:after,
+a[href$="/user/Phillyshitlord"]:after,
+a[href$="/user/nomi_malone"]:after,
+a[href$="/user/Pathogenesis25"]:after,
+a[href$="/user/Shitty_McShitlord"]:after,
+a[href$="/user/BigBoss"]:after,
+a[href$="/user/FrozenKlondyke"]:after,
+a[href$="/user/Sythek"]:after,
+a[href$="/user/vordster"]:after,
+a[href$="/user/DoctorKoctor"]:after,
+a[href$="/user/RobertPaulson"]:after,
+a[href$="/user/wbfla"]:after,
+a[href$="/user/Joebro88"]:after,
+a[href$="/user/AndrossAngel"]:after,
+a[href$="/user/swizzlesticks"]:after,
+a[href$="/user/dcs2000"]:after,
+a[href$="/user/silvester"]:after,
+a[href$="/user/dontqueefonmebro"]:after,
+a[href$="/user/door_"]:after,
+a[href$="/user/TheEnzo"]:after,
+a[href$="/user/wolflink009"]:after,
+a[href$="/user/Invisible_Nomad"]:after,
+a[href$="/user/Melbourne43"]:after,
+a[href$="/user/Adler"]:after,
+a[href$="/user/fatness"]:after,
+a[href$="/user/cleftscout"]:after,
+a[href$="/user/Maisy"]:after,
+a[href$="/user/Eysenor"]:after,
+a[href$="/user/GreyFox"]:after,
+a[href$="/user/floris"]:after,
+a[href$="/user/Morgasm"]:after,
+a[href$="/user/GrimRipple"]:after,
+a[href$="/user/Ruston"]:after,
+a[href$="/user/xxlthrowaway"]:after,
+a[href$="/user/sketchyadvice77"]:after,
+a[href$="/user/Chodder"]:after,
+a[href$="/user/diefatfucks"]:after,
+a[href$="/user/CutTheCurby"]:after,
+a[href$="/user/MyFatHateFlows"]:after,
+a[href$="/user/uLookFatInThoseGenes"]:after,
+a[href$="/user/Oveneise"]:after,
+a[href$="/user/Elysium"]:after,
+a[href$="/user/Fatty_McGoo"]:after,
+a[href$="/user/zeonin"]:after,
+a[href$="/user/HoodedHoodlum"]:after,
+a[href$="/user/CheckYourFupa"]:after,
+a[href$="/user/Kahlo"]:after,
+a[href$="/user/tuxedo"]:after,
+a[href$="/user/CyanRyan"]:after,
+a[href$="/user/greenymaco"]:after,
+a[href$="/user/CttCJim"]:after,
+a[href$="/user/Landao"]:after,
+a[href$="/user/fryabetes"]:after,
+a[href$="/user/crimsonpowder"]:after,
+a[href$="/user/tisi"]:after,
+a[href$="/user/Era"]:after,
+a[href$="/user/4kneecator"]:after,
+a[href$="/user/shitlordstrugglez"]:after,
+a[href$="/user/bkmnalpha"]:after,
+a[href$="/user/larionov"]:after,
+a[href$="/user/LoveThighGap"]:after,
+a[href$="/user/hotmusician"]:after,
+a[href$="/user/ILoveFPH"]:after,
+a[href$="/user/Lenvaldier"]:after,
+a[href$="/user/herr_scheisse"]:after,
+a[href$="/user/FatPeopleHateMe"]:after,
+a[href$="/user/Reddifugee"]:after,
+a[href$="/user/orange-avocado"]:after,
+a[href$="/user/Grimace_Reaper"]:after,
+a[href$="/user/todbert"]:after,
+a[href$="/user/ppbox"]:after,
+a[href$="/user/thorgin"]:after,
+a[href$="/user/Wolfthorn"]:after,
+a[href$="/user/AlanWake"]:after,
+a[href$="/user/QuillQuote"]:after,
+a[href$="/user/Fallkniven"]:after,
+a[href$="/user/CrackerBInebriated"]:after,
+a[href$="/user/underthemotherboard"]:after,
+a[href$="/user/redditHasCooties "]:after,
+a[href$="/user/MC_BarelyLegible"]:after,
+a[href$="/user/Lord_Shitlord"]:after,
+a[href$="/user/bieberhole_69"]:after,
+a[href$="/user/SetsAndReps"]:after,
+a[href$="/user/ConnieDeShuns"]:after,
+a[href$="/user/FatPeopleHateAccount"]:after,
+a[href$="/user/Daimao"]:after,
+a[href$="/user/LJM"]:after,
+a[href$="/user/ThinkingClear"]:after,
+a[href$="/user/jrlascody"]:after,
+a[href$="/user/iloveNoseRings"]:after,
+a[href$="/user/firekarat"]:after,
+a[href$="/user/PureFix"]:after,
+a[href$="/user/diggeler"]:after,
+a[href$="/user/yourhero7"]:after,
+a[href$="/user/CttCJim"]:after,
+a[href$="/user/technician90"]:after,
+a[href$="/user/cassis"]:after,
+a[href$="/user/Shimmy"]:after,
+a[href$="/user/joelmooner"]:after,
+a[href$="/user/talones"]:after,
+a[href$="/user/LazarusLong"]:after,
+a[href$="/user/ogcook"]:after,
+a[href$="/user/Allchiefedup24"]:after,
+a[href$="/user/SouthPark"]:after,
+a[href$="/user/BWBHAMMER"]:after,
+a[href$="/user/archers_bows9"]:after,
+a[href$="/user/Infiltrator"]:after,
+a[href$="/user/Stinkybeetusfoot"]:after,
+a[href$="/user/Anonymous_Coward"]:after,
+a[href$="/user/danunit"]:after,
+a[href$="/user/imnotyourfriendpal"]:after,
+a[href$="/user/Tuna_n_Rice"]:after,
+a[href$="/user/rshackleford252525"]:after,
+a[href$="/user/CrackingYs"]:after,
+a[href$="/user/the_foreigner"]:after,
+a[href$="/user/raznog"]:after,
+a[href$="/user/i_am_the_ginger"]:after
 { content: "Verified Shitlord"; }
 
 /* "Verified Shitlady" flair */
 
-a[href$="/user/GenevieveJenkins"]:before,
-a[href$="/user/Thinchick"]:before,
-a[href$="/user/fatis4punching"]:before,
-a[href$="/user/strings"]:before,
-a[href$="/user/bethygal83"]:before,
-a[href$="/user/aretemis"]:before,
-a[href$="/user/redherpbluederp"]:before,
-a[href$="/user/Trickster"]:before,
-a[href$="/user/32DDbitches"]:before,
-a[href$="/user/Entitilitus"]:before,
-a[href$="/user/MasterBettyPain"]:before,
-a[href$="/user/dotty"]:before,
-a[href$="/user/Skinny_McJiggles"]:before,
-a[href$="/user/naked_ditchdigger"]:before,
-a[href$="/user/SacoDeHuesos"]:before,
-a[href$="/user/HonorYourBeetus"]:before,
-a[href$="/user/Antimony"]:before,
-a[href$="/user/shitladybird"]:before,
-a[href$="/user/commandershitlorde"]:before,
-a[href$="/user/SassyShitlady"]:before,
-a[href$="/user/fearsnight"]:before,
-a[href$="/user/redjenny"]:before,
-a[href$="/user/Thippe"]:before,
-a[href$="/user/Catcat"]:before,
-a[href$="/user/longlostbleu"]:before,
-a[href$="/user/wolfgirlnaya"]:before,
-a[href$="/user/TheSashimiTamale"]:before,
-a[href$="/user/VegetarianZombie1"]:before,
-a[href$="/user/absmom20"]:before,
-a[href$="/user/IAHA"]:before,
-a[href$="/user/OgreSounds"]:before,
-a[href$="/user/Gidg"]:before,
-a[href$="/user/DatVitaminD"]:before,
-a[href$="/user/dotty"]:before,
-a[href$="/user/nothinggoddammit"]:before,
-a[href$="/user/horse__tornado"]:before,
-a[href$="/user/SeeYouNextTuesday"]:before,
-a[href$="/user/theepilepticferret"]:before,
-a[href$="/user/iscrapedmyknee"]:before,
-a[href$="/user/ShiteLorde"]:before,
-a[href$="/user/masyday"]:before
+a[href$="/user/TattooedWife"]:after,
+a[href$="/user/GenevieveJenkins"]:after,
+a[href$="/user/eat_a_dick_por_favor"]:after,
+a[href$="/user/ActualHourglass"]:after,
+a[href$="/user/Thinchick"]:after,
+a[href$="/user/fatis4punching"]:after,
+a[href$="/user/strings"]:after,
+a[href$="/user/bethygal83"]:after,
+a[href$="/user/aretemis"]:after,
+a[href$="/user/redherpbluederp"]:after,
+a[href$="/user/Trickster"]:after,
+a[href$="/user/32DDbitches"]:after,
+a[href$="/user/Entitilitus"]:after,
+a[href$="/user/MasterBettyPain"]:after,
+a[href$="/user/dotty"]:after,
+a[href$="/user/Skinny_McJiggles"]:after,
+a[href$="/user/naked_ditchdigger"]:after,
+a[href$="/user/SacoDeHuesos"]:after,
+a[href$="/user/HonorYourBeetus"]:after,
+a[href$="/user/Antimony"]:after,
+a[href$="/user/shitladybird"]:after,
+a[href$="/user/commandershitlorde"]:after,
+a[href$="/user/SassyShitlady"]:after,
+a[href$="/user/fearsnight"]:after,
+a[href$="/user/redjenny"]:after,
+a[href$="/user/Thippe"]:after,
+a[href$="/user/Catcat"]:after,
+a[href$="/user/longlostbleu"]:after,
+a[href$="/user/wolfgirlnaya"]:after,
+a[href$="/user/TheSashimiTamale"]:after,
+a[href$="/user/VegetarianZombie1"]:after,
+a[href$="/user/absmom20"]:after,
+a[href$="/user/IAHA"]:after,
+a[href$="/user/OgreSounds"]:after,
+a[href$="/user/Gidg"]:after,
+a[href$="/user/DatVitaminD"]:after,
+a[href$="/user/dotty"]:after,
+a[href$="/user/nothinggoddammit"]:after,
+a[href$="/user/horse__tornado"]:after,
+a[href$="/user/SeeYouNextTuesday"]:after,
+a[href$="/user/theepilepticferret"]:after,
+a[href$="/user/iscrapedmyknee"]:after,
+a[href$="/user/ShiteLorde"]:after,
+a[href$="/user/masyday"]:after,
+a[href$="/user/LeanMeanShitQueen"]:after,
+a[href$="/user/FatJavalina"]:after
 { content: "Verified Shitlady"; }
 
 
 
 /* Mod Flairs */
 
-a[href$="/user/notarealperson"]:before {color: #666;content: "notaflair"; }
- 
-a[href$="/user/FLAIR"]:before { background: #801cd6;content: "Shiny Hitler"; }
- 
-a[href$="/user/fuckredditcensorship"]:before { background: #f95050;content: "Mediocre Hitler"; }
- 
-a[href$="/user/The_Penis_Wizard"]:before { background: #f750f9;content: "Literally Hitler"; }
- 
-a[href$="/user/Gollum"]:before { background: #ffa500;content: "Wishful Hitler"; }
- 
-a[href$="/user/homersimpson"]:before { background: #2ad42a;content: "Metaphorically Hitler"; }
- 
-a[href$="/user/HomerSimpson"]:before { background: #2ad42a;content: "Metaphorically Hitler"; }
- 
-a[href$="/user/shmuklidooha"]:before { background: #00c5ff;content: "Figuratively Hitler"; }
- 
-a[href$="/user/SportyStrawberry"]:before { background: #e31860;content: "Actively Hitler"; }
+a[href$="/user/notarealperson"]:after {color: #666;content: "notaflair"; }
+   
+a[href$="/user/The_Penis_Wizard"]:after { background: #DF0101;content: "Literally Hitler"; }
+  
+a[href$="/user/HamathaMcBeetusButt"]:after { background: #F003F2;content: "Poetically Hitler"; }
 
-a[href$="/user/sportystrawberry"]:before { background: #e31860;content: "Actively Hitler"; }
+a[href$="/user/Space_ninja"]:after { background: #5533EC;content: "Offensively Hitler"; }
 
-a[href$="/user/12_Years_A_Toucan"]:before { background: #e1d812; font-color: red;content: "Hitler's Toucan"; }
+a[href$="/user/Space_Ninja"]:after { background: #5533EC;content: "Offensively Hitler"; }
+
+a[href$="/user/homersimpson"]:after { background: #2ad42a;content: "Metaphorically Hitler"; }
  
-a[href$="/user/FreedomToast"]:before { background: #295EFF;content: "Scientifically Hitler"; }
+a[href$="/user/HomerSimpson"]:after { background: #2ad42a;content: "Metaphorically Hitler"; }
+ 
+a[href$="/user/shmuklidooha"]:after { background: #00c5ff;content: "Figuratively Hitler"; }
+ 
+a[href$="/user/SportyStrawberry"]:after { background: #e31860;content: "Actively Hitler"; }
 
+a[href$="/user/sportystrawberry"]:after { background: #e31860;content: "Actively Hitler"; }
+
+a[href$="/user/12_Years_A_Toucan"]:after { background: #e1d812; content: "Hitler's Toucan"; }
+
+a[href$="/user/Archangelle_Achtung"]:after { background: #ff6633; content: "buchstäblich Hitler"; }
+ 
+a[href$="/user/leelem0n"]:after { background: #ebf094; content: "Lifting Hitler"; }
 
 /* This makes it so flairs don't show up at the top of the page.  */
 
 
- a[title="Profile"]:before,a.upvoatsGiven:before{content:none;}
+ a[title="Profile"]:after,a.upvoatsGiven:after{content:none;}
 
 
 
@@ -390,6 +420,84 @@ repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, 
                 text-decoration: none;
             }
 
+
+/* Sticky */
+
+.promoted {
+    float:right;
+    background-color: #333333;
+    padding:5px; border: 1px solid #000000;
+    color:#fff; font-size:14px; font-weight:bold;
+}
+.stickied .title .may-blank:before {
+    content: "Important: ";
+    color: #ff2222;
+    border: 0px;
+    background-color:transparent;
+    width:auto;
+    margin:0px;
+}
+.stickied {
+border:1px solid #000;
+border-radius: 5px;
+}
+
+/*-------------
+FLAIRS
+
+.flair-NSFW,
+.flair-NSFL,
+.flair-Quality,
+
+-------------*/
+
+.flair, .submission a.title::before {
+    display:    inline-block;
+    text-align: center;
+    background: #DDD;
+    border:     2px solid #BBB;
+    border-radius: 10px;
+    color:      #666;
+}
+
+    .light .flair-Quality{
+        background:   #71EA84;
+        border-color: #4CC65F;
+        color:        #2C7437;
+    }
+    .dark .flair-Quality{
+        background:   #3A8745;
+        border-color: #215529;
+        color:        #EBFFEE;
+}
+    .light .flair-NSFW{
+        background:   #e31837;
+        border-color: #d82540;
+        color:        #FEEBEB;
+    }
+    .dark .flair-NSFW{
+        background:   #E45E5E;
+        border-color: #C84848;
+        color:        #F9FBFF;
+    }
+    .light .flair-NSFL{
+        background:   #db3838;
+        border-color: #db0303;
+        color:        #FEEBEB;
+    }
+    .dark .flair-NSFL{
+        background:   #fd4b4b;
+        border-color: #ff1717;
+        color:        #F9FBFF;
+    }
+
+.flair:empty {
+    /* fix for unflaired discussion pages */
+    display: none; }
+
+
+
+
         /* ! Header | Tab menu
         -------------------------------------------------------------------------------- */
         .tabmenu { font-size: 16px; }
@@ -455,6 +563,18 @@ repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, 
                     border-color: #D681FF;
                 }
 
+/* EDIT MODERATOR BOX */
+.side .helplink + .title h1 { display: none; }
+.side .helplink + .title::before { 
+    content: 'THE FOURTH REICH';
+    display: block;
+    font-size: 130%;
+    font-weight: bold;
+    color:      #967aff;
+    text-transform: uppercase;
+}
+
+
         /* ! Header | Account
         -------------------------------------------------------------------------------- */
         .logged-in {
@@ -489,7 +609,7 @@ repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, 
 
 /* Submit Buttons */
 
-.md h2, .side .btn-whoaverse, btn-default {
+.md h2, .side .btn-whoaverse, btn-default, .side .md > ul, .side .md > ul li:first-child {
     background: #333333;
     text-align: center;
     color: white;
@@ -504,12 +624,35 @@ repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, 
     background: #666666;
     border: 2px solid #000;
 }
+.leavemoderator{background-color:transparent;}
 
-
-        /* ! Container | Sidebar | Titlebox
+        /* ! Sidebar dropdowns
         -------------------------------------------------------------------------------- */
 
-.titlebox h1 a { display:none;}
+.side .md > ul {
+    margin: 0px;
+    list-style: none;
+    width: 100%;
+}
+.side .md > ul li {
+    display: none;
+    padding: 4px;
+}
+.side .md > ul li ~ li {
+    border-top: 1px solid;
+}
+.side .md > ul li:hover {
+    #background: #f7f7f7;
+}
+.side .md > ul li:first-child {
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+}
+.side .md > ul:hover li {
+    display: block;
+}
+
         /* ! Downvote message
         -------------------------------------------------------------------------------- */
         .arrow-downvote:after{
