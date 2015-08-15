@@ -23,7 +23,7 @@
 
 a:after{background: #f8f8f8;border: 1px solid #e6e6e6;border-radius: 2px;color: #000000;line-height: 150%;margin-right: 3px;padding: 2px 4px;vertical-align: middle;}
 
-/* Special Flairs */
+/* Special Flairs  */
 
 a[href$="/user/Swoledamort"]:after
 { content: "Too Many Dicks in Ass"; }
