@@ -100,18 +100,18 @@ repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, 
 
             /* ! Header | Sub menu
             -------------------------------------------------------------------------------- */
-            .whoaSubscriptionMenu li ul {
+.light            .whoaSubscriptionMenu li ul {
                 border: 1px solid;
                 border-color: #333 #222 #222;
                 box-shadow: 3px 3px 3px hsla( 0,0%,0%,0.2 );
             }
-                .whoaSubscriptionMenu li ul li a:link,
-                .whoaSubscriptionMenu li ul li a:visited {
+   .light             .whoaSubscriptionMenu li ul li a:link,
+   .light             .whoaSubscriptionMenu li ul li a:visited {
                     background: #333;
                     border-bottom: 1px solid #222;
                     color: #FFF;
                 }
-                .whoaSubscriptionMenu li ul li a:hover {
+    .light            .whoaSubscriptionMenu li ul li a:hover {
                     background: #47B1FC;
                     background: -webkit-linear-gradient( top,#47B1FC,#3797DC );
                     background:    -moz-linear-gradient( top,#47B1FC,#3797DC );
@@ -121,22 +121,22 @@ repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, 
                 }
 
             /* Menu drop arrow icon */
-            .drop-arrow { border-color: #D0D0D0 transparent transparent; }
+   .light         .drop-arrow { border-color: #D0D0D0 transparent transparent; }
 
-        #sr-more-link {
+.light        #sr-more-link {
             background: none;
             color: #CCC;
         }
 
         /* ! Header | Sub name
         -------------------------------------------------------------------------------- */
-        .pagename {
+.light        .pagename {
             font-size: 24px;
             letter-spacing: -1px;
             text-transform: uppercase;
             margin-bottom: 9px;
         }
-            .pagename a {
+ .light           .pagename a {
                 color: #E0E0E0;
                 border-style: solid none;
                 border-width: 2px;
@@ -144,7 +144,7 @@ repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, 
                 padding: 0;
                 margin: 0 12px;
             }
-            .pagename a:hover {
+  .light          .pagename a:hover {
                 color: #E0E0E0;
                 border-style: solid none;
                 border-width: 2px;
@@ -155,13 +155,13 @@ repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, 
 
 /* Sticky */
 
-.promoted {
+.light .promoted {
     float:right;
     background-color: #333333;
     padding:5px; border: 1px solid #000000;
     color:#fff; font-size:14px; font-weight:bold;
 }
-.stickied .title .may-blank:before {
+.light .stickied .title .may-blank:before {
     content: "Important: ";
     color: #ff2222;
     border: 0px;
@@ -169,11 +169,11 @@ repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, 
     width:auto;
     margin:0px;
 }
-.stickied {
+.light .stickied {
 border:1px solid #000;
 border-radius: 5px;
 }
-.moderator{
+.light .moderator{
 color:#3FBF4C !important;
 }
 
