@@ -1,167 +1,13 @@
 
-
-/* ! Header
--------------------------------------------------------------------------------- */
-.light #header {
-  background: 
-url(https://i.imgur.com/EXqWwgp.png) center no-repeat, 
--webkit-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 90px), 
--webkit-repeating-linear-gradient(45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 90px), 
--webkit-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 180px), 
--webkit-repeating-linear-gradient(45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 180px), 
--webkit-repeating-linear-gradient(45deg, rgba(255, 255, 255, .5), rgba(255, 255, 255, .5) 1px, transparent 1px, transparent 180px), 
--webkit-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .5) , rgba(255, 255, 255, .5) 1px, transparent 1px, transparent 180px), 
--webkit-repeating-linear-gradient(45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 90px), 
--webkit-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 90px);
-
-  background: 
-url(https://i.imgur.com/EXqWwgp.png) center no-repeat, 
--moz-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 90px), 
--moz-repeating-linear-gradient(45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 90px), 
--moz-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 180px), 
--moz-repeating-linear-gradient(45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 180px), 
--moz-repeating-linear-gradient(45deg, rgba(255, 255, 255, .5), rgba(255, 255, 255, .5) 1px, transparent 1px, transparent 180px), 
--moz-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .5) , rgba(255, 255, 255, .5) 1px, transparent 1px, transparent 180px), 
--moz-repeating-linear-gradient(45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 90px), 
--moz-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 90px);
-
-  background: 
-url(https://i.imgur.com/WUR3Z8h.png) center no-repeat, 
--o-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 90px), 
--o-repeating-linear-gradient(45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 90px), 
--o-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 180px), 
--o-repeating-linear-gradient(45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 180px), 
--o-repeating-linear-gradient(45deg, rgba(255, 255, 255, .5), rgba(255, 255, 255, .5) 1px, transparent 1px, transparent 180px), 
--o-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .5) , rgba(255, 255, 255, .5) 1px, transparent 1px, transparent 180px), 
--o-repeating-linear-gradient(45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 90px), 
--o-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 90px);
-
-  background: 
-url(https://i.imgur.com/EXqWwgp.png) center no-repeat, 
-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 90px), 
-repeating-linear-gradient(45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 90px), 
-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 180px), 
-repeating-linear-gradient(45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 180px), 
-repeating-linear-gradient(45deg, rgba(255, 255, 255, .5), rgba(255, 255, 255, .5) 1px, transparent 1px, transparent 180px), 
-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .5) , rgba(255, 255, 255, .5) 1px, transparent 1px, transparent 180px), 
-repeating-linear-gradient(45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 90px), 
-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 90px);
-
-  background-color: #181818;
-  background-size: 1820px 100%, 256px 256px, 256px 256px, 256px 256px, 256px 256px, 256px 256px, 256px 256px, 256px 256px, 256px 256px;
-    height: 225px;
-    width: 100%
-    margin: 0;
-}
-
-#header:after {
-  content: " ";
-  font-size: -webkit-xxx-large;
-  color: white;
-  border-top: azure;
-  font-weight: 400;
-  font-style: italic;
-  font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
-  width: 100%;
-  position: absolute;
-  height: 60px;
-  text-align: center;
-  top: 80px;
-}
-
-@media ( max-width: 550px ) {
-#header {
-    background-size: 300%;
-    height: 250px;
-}
-}
-    #header-container,
-    #sr-header-area {
-        background: transparent;
-        border: 0;
-    }
-        #sr-header-area .selected a { color: #317FB7; }
-
-        #sr-header-area .sr-list { margin-right: 59px; }
-            .sr-list li a { color: #D0D0D0; }
-
-            #sr-bar li a { color: #999; }
-            #sr-header-area:hover #sr-bar li a { color: #D0D0D0; }
-
-        #header-img {
-            background: url( https://i.imgur.com/Yc8q9AO.png );
-            padding-left: 112px;
-        }
-
-        #sr-more-link:hover {
-            color: #FFF;
-            background: #317FB7;
-        }
-
-            /* ! Header | Sub menu
-            -------------------------------------------------------------------------------- */
-            .whoaSubscriptionMenu li ul {
-                border: 1px solid;
-                border-color: #333 #222 #222;
-                box-shadow: 3px 3px 3px hsla( 0,0%,0%,0.2 );
-            }
-                .whoaSubscriptionMenu li ul li a:link,
-                .whoaSubscriptionMenu li ul li a:visited {
-                    background: #333;
-                    border-bottom: 1px solid #222;
-                    color: #FFF;
-                }
-                .whoaSubscriptionMenu li ul li a:hover {
-                    background: #47B1FC;
-                    background: -webkit-linear-gradient( top,#47B1FC,#3797DC );
-                    background:    -moz-linear-gradient( top,#47B1FC,#3797DC );
-                    background:     -ms-linear-gradient( top,#47B1FC,#3797DC );
-                    background:      -o-linear-gradient( top,#47B1FC,#3797DC );
-                    color: #FFF !important;
-                }
-
-            /* Menu drop arrow icon */
-            .drop-arrow { border-color: #D0D0D0 transparent transparent; }
-
-        #sr-more-link {
-            background: none;
-            color: #CCC;
-        }
-
-        /* ! Header | Sub name
-        -------------------------------------------------------------------------------- */
-        .pagename {
-            font-size: 24px;
-            letter-spacing: -1px;
-            text-transform: uppercase;
-            margin-bottom: 9px;
-        }
-            .pagename a {
-                color: #E0E0E0;
-                border-style: solid none;
-                border-width: 2px;
-                border-color: transparent;
-                padding: 0;
-                margin: 0 12px;
-            }
-            .pagename a:hover {
-                color: #E0E0E0;
-                border-style: solid none;
-                border-width: 2px;
-                border-color: #E0E0E0;
-                text-decoration: none;
-            }
-
-
 /* Sticky */
 
-.promoted {
+.light .promoted {
     float:right;
     background-color: #333333;
     padding:5px; border: 1px solid #000000;
     color:#fff; font-size:14px; font-weight:bold;
 }
-.stickied .title .may-blank:before {
+.light .stickied .title .may-blank:before {
     content: "Important: ";
     color: #ff2222;
     border: 0px;
@@ -169,11 +15,11 @@ repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, 
     width:auto;
     margin:0px;
 }
-.stickied {
+.light .stickied {
 border:1px solid #000;
 border-radius: 5px;
 }
-.moderator{
+.light .moderator{
 color:#3FBF4C !important;
 }
 
