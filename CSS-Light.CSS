@@ -54,7 +54,7 @@ repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, 
     margin: 0;
 }
 
-#header:after {
+.light #header:after {
   content: " ";
   font-size: -webkit-xxx-large;
   color: white;
@@ -70,30 +70,30 @@ repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, 
 }
 
 @media ( max-width: 550px ) {
-#header {
+.light #header {
     background-size: 300%;
     height: 250px;
 }
 }
-    #header-container,
+.light    #header-container,
     #sr-header-area {
         background: transparent;
         border: 0;
     }
-        #sr-header-area .selected a { color: #317FB7; }
+.light        #sr-header-area .selected a { color: #317FB7; }
 
-        #sr-header-area .sr-list { margin-right: 59px; }
-            .sr-list li a { color: #D0D0D0; }
+ .light       #sr-header-area .sr-list { margin-right: 59px; }
+     .light         .sr-list li a { color: #D0D0D0; }
 
-            #sr-bar li a { color: #999; }
-            #sr-header-area:hover #sr-bar li a { color: #D0D0D0; }
+      .light        #sr-bar li a { color: #999; }
+    .light          #sr-header-area:hover #sr-bar li a { color: #D0D0D0; }
 
-        #header-img {
+     .light     #header-img {
             background: url( https://i.imgur.com/Yc8q9AO.png );
             padding-left: 112px;
         }
 
-        #sr-more-link:hover {
+   .light       #sr-more-link:hover {
             color: #FFF;
             background: #317FB7;
         }
