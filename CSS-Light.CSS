@@ -1,13 +1,13 @@
 /* Sidebar image, 280x280 px plz */
 
-.titlebox h4{
+.light .titlebox h4{
     background: url(https://i.imgur.com/rwESgN3.png);
     height: 210px;
     width: 100%;
     border-radius: 10px;
     display: block;
 }
-.md h4 a{
+.light .md h4 a{
     line-height: 210px;
     width: 100%;
     border-radius: 10px;  
@@ -16,14 +16,14 @@
     overflow: hidden;
      display:inline-block;
 }
-.titlebox h1 a { #display:none;
+.light .titlebox h1 a { #display:none;
 }
-.whoaversename img {float:right;display:none;}
+.light .whoaversename img {float:right;display:none;}
 
 
 /* ! Header
 -------------------------------------------------------------------------------- */
-#header {
+.light #header {
   background: 
 url(https://i.imgur.com/EXqWwgp.png) center no-repeat, 
 -webkit-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 90px), 
