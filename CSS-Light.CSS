@@ -16,38 +16,38 @@ url(https://i.imgur.com/UBxAxl5.png) center no-repeat,
 
   background: 
 url(http://i.imgur.com/UBxAxl5.png) center no-repeat, 
--moz-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 90px), 
--moz-repeating-linear-gradient(45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 90px), 
--moz-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 180px), 
--moz-repeating-linear-gradient(45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 180px), 
--moz-repeating-linear-gradient(45deg, rgba(255, 255, 255, .5), rgba(255, 255, 255, .5) 1px, transparent 1px, transparent 180px), 
--moz-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .5) , rgba(255, 255, 255, .5) 1px, transparent 1px, transparent 180px), 
--moz-repeating-linear-gradient(45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 90px), 
--moz-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 90px);
+-moz-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .1) 60px, rgba(255, 255, 255, .9) 70px, transparent 1px, transparent 90px), 
+-moz-repeating-linear-gradient(45deg, rgba(255, 255, 255, .1) 60px, rgba(255, 255, 255, .9) 70px, transparent 1px, transparent 90px), 
+-moz-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .1) 60px, rgba(255, 255, 255, .9) 70px, transparent 1px, transparent 180px), 
+-moz-repeating-linear-gradient(45deg, rgba(255, 255, 255, .1) 60px, rgba(255, 255, 255, .9) 70px, transparent 1px, transparent 180px), 
+-moz-repeating-linear-gradient(45deg, rgba(24, 24, 24, .5), rgba(24, 24, 24, .5) 1px, transparent 1px, transparent 180px), 
+-moz-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .5) , rgba(24, 24, 24, .5) 1px, transparent 1px, transparent 180px), 
+-moz-repeating-linear-gradient(45deg, rgba(24, 24, 24, .2) , rgba(24, 24, 24, .2) 1px, transparent 1px, transparent 90px), 
+-moz-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .2) , rgba(224, 24, 24, .2) 1px, transparent 1px, transparent 90px);
 
   background: 
 url(https://i.imgur.com/rFnHzrq.png) center no-repeat, 
--o-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 90px), 
--o-repeating-linear-gradient(45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 90px), 
--o-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 180px), 
--o-repeating-linear-gradient(45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 180px), 
--o-repeating-linear-gradient(45deg, rgba(255, 255, 255, .5), rgba(255, 255, 255, .5) 1px, transparent 1px, transparent 180px), 
--o-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .5) , rgba(255, 255, 255, .5) 1px, transparent 1px, transparent 180px), 
--o-repeating-linear-gradient(45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 90px), 
--o-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 90px);
+-o-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .1) 60px, rgba(255, 255, 255, .9) 70px, transparent 1px, transparent 90px), 
+-o-repeating-linear-gradient(45deg, rgba(255, 255, 255, .1) 60px, rgba(255, 255, 255, .9) 70px, transparent 1px, transparent 90px), 
+-o-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .1) 60px, rgba(255, 255, 255, .9) 70px, transparent 1px, transparent 180px), 
+-o-repeating-linear-gradient(45deg, rgba(255, 255, 255, .1) 60px, rgba(255, 255, 255, .9) 70px, transparent 1px, transparent 180px), 
+-o-repeating-linear-gradient(45deg, rgba(24, 24, 24, .5), rgba(24, 24, 24, .5) 1px, transparent 1px, transparent 180px), 
+-o-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .5) , rgba(24, 24, 24, .5) 1px, transparent 1px, transparent 180px), 
+-o-repeating-linear-gradient(45deg, rgba(24, 24, 24, .2) , rgba(24, 24, 24, .2) 1px, transparent 1px, transparent 90px), 
+-o-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .2) , rgba(24, 24, 24, .2) 1px, transparent 1px, transparent 90px);
 
   background: 
 url(http://i.imgur.com/UBxAxl5.png) center no-repeat, 
-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 90px), 
-repeating-linear-gradient(45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 90px), 
-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 180px), 
-repeating-linear-gradient(45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 180px), 
-repeating-linear-gradient(45deg, rgba(255, 255, 255, .5), rgba(255, 255, 255, .5) 1px, transparent 1px, transparent 180px), 
-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .5) , rgba(255, 255, 255, .5) 1px, transparent 1px, transparent 180px), 
-repeating-linear-gradient(45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 90px), 
-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 90px);
+repeating-linear-gradient(-45deg, rgba(255, 255, 255, .1) 60px, rgba(255, 255, 255, .9) 70px, transparent 1px, transparent 90px), 
+repeating-linear-gradient(45deg, rgba(255, 255, 255, .1) 60px, rgba(255, 255, 255, .9) 70px, transparent 1px, transparent 90px), 
+repeating-linear-gradient(-45deg, rgba(255, 255, 255, .1) 60px, rgba(255, 255, 255, .9) 70px, transparent 1px, transparent 180px), 
+repeating-linear-gradient(45deg, rgba(255, 255, 255, .1) 60px, rgba(255, 255, 255, .9) 70px, transparent 1px, transparent 180px), 
+repeating-linear-gradient(45deg, rgba(24, 24, 24, .5), rgba(24, 24, 24, .5) 1px, transparent 1px, transparent 180px), 
+repeating-linear-gradient(-45deg, rgba(24, 24, 24, .5) , rgba(24, 24, 24, .5) 1px, transparent 1px, transparent 180px), 
+repeating-linear-gradient(45deg, rgba(24, 24, 24, .2) , rgba(24, 24, 24, .2) 1px, transparent 1px, transparent 90px), 
+repeating-linear-gradient(-45deg, rgba(24, 24, 24, .2) , rgba(24, 24, 24, .2) 1px, transparent 1px, transparent 90px);
 
-  background-color: #181818;
+  background-color: #FFFFFF;
   background-size: 1820px 100%, 256px 256px, 256px 256px, 256px 256px, 256px 256px, 256px 256px, 256px 256px, 256px 256px, 256px 256px;
     height: 225px;
     width: 100%
