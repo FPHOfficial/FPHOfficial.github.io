@@ -215,7 +215,7 @@ FLAIRS
     }
 
 
-.flair:empty {
+.light .flair:empty {
     /* fix for unflaired discussion pages */
     display: none; }
 
@@ -224,20 +224,20 @@ FLAIRS
 
         /* ! Header | Tab menu
         -------------------------------------------------------------------------------- */
-        .tabmenu { font-size: 16px; }
-            .tabmenu li { text-transform: uppercase; }
-                .tabmenu li a {
+  .light      .tabmenu { font-size: 16px; }
+    .light        .tabmenu li { text-transform: uppercase; }
+     .light           .tabmenu li a {
                     margin: 0 3px;
                     padding: 6px 0;
                 }
 
-                .tabmenu li.disabled a {
+         .light       .tabmenu li.disabled a {
                     color: #E0E0E0;background: transparent;
                 }
-                .tabmenu li.disabled{background: none;}
-                .tabmenu li.disabled a,
-                .tabmenu li.selected a { border: 0; border-radius: 0; }
-                .tabmenu li.disabled a:hover {
+            .light    .tabmenu li.disabled{background: none;}
+            .light    .tabmenu li.disabled a,
+             .light   .tabmenu li.selected a { border: 0; border-radius: 0; }
+              .light  .tabmenu li.disabled a:hover {
                     color: #E0E0E0;
                     background: none;
                     border: 0;
@@ -246,13 +246,13 @@ FLAIRS
                     border-color: #E0E0E0;
                     box-shadow: none;
                 }
-                .tabmenu li.disabled a.contribute {
+        .light        .tabmenu li.disabled a.contribute {
                     background: none;
                     border: 0;
                     color: #D681FF;
                     font-weight: normal;
                 }
-                .tabmenu li.disabled a.contribute:hover {
+        .light        .tabmenu li.disabled a.contribute:hover {
                     background: none;
                     color: #D681FF;
                     border-style: solid none;
@@ -260,26 +260,26 @@ FLAIRS
                     border-color: #D681FF;
                 }
 
-                .tabmenu li.selected a {
+            .light    .tabmenu li.selected a {
                     background: none;
                     border: 0;
                     box-shadow: none;
                     color: #E0E0E0;
                     font-weight: bold;
                 }
-                .tabmenu li.selected a:hover {
+         .light       .tabmenu li.selected a:hover {
                     color: #E0E0E0;
                     border-style: solid none;
                     border-width: 2px;
                     border-color: #E0E0E0;
                 }
-                .tabmenu li.selected a.contribute {
+         .light       .tabmenu li.selected a.contribute {
                     background: none;
                     border: 0;
                     color: #D681FF;
                     font-weight: bold;
                 }
-                .tabmenu li.selected a.contribute:hover {
+           .light     .tabmenu li.selected a.contribute:hover {
                     background: none;
                     color: #D681FF;
                     border-style: solid none;
@@ -288,8 +288,8 @@ FLAIRS
                 }
 
 /* EDIT MODERATOR BOX */
-.side .helplink + .title h1 { display: none; }
-.side .helplink + .title::before { 
+.light .side .helplink + .title h1 { display: none; }
+.light .side .helplink + .title::before { 
     content: 'THE FOURTH REICH';
     display: block;
     font-size: 130%;
@@ -301,30 +301,30 @@ FLAIRS
 
         /* ! Header | Account
         -------------------------------------------------------------------------------- */
-        .logged-in {
+ .light       .logged-in {
             color: #D0D0D0;
             background: none;
             border: 0;
             border-radius: 0;
         }
-        .logged-out {
+.light        .logged-out {
             color: #D0D0D0;
             background: none;
             border: 0;
             border-radius: 0;
         }
-            #header-account a,
-            #header-account .logged-out a { color: #D0D0D0; }
-            #header-account a:hover { color: #317FB7; }
+ .light           #header-account a,
+   .light         #header-account .logged-out a { color: #D0D0D0; }
+   .light         #header-account a:hover { color: #317FB7; }
 
-            #header-account .separator {
+     .light       #header-account .separator {
                 margin: 0;
                 visibility: hidden;
             }
 
 /* ! Container
 -------------------------------------------------------------------------------- */
-#container {
+.light #container {
     background: none;
     border: 0;
     border-radius: 0;
@@ -333,7 +333,7 @@ FLAIRS
 
 /* Submit Buttons */
 
-.md h2, .side .btn-whoaverse, btn-default, .side .md > ul, .side .md > ul li:first-child {
+.light .md h2, .side .btn-whoaverse, btn-default, .side .md > ul, .side .md > ul li:first-child {
     background: #333333;
     text-align: center;
     color: white;
@@ -341,18 +341,18 @@ FLAIRS
     border-radius: 5px;
     border:0px;
 }
-.side a.btn-whoaverse { color: #fff;
+.light .side a.btn-whoaverse { color: #fff;
     font-size:1em; 
     border: 2px solid #333;}
-.side .btn-whoaverse:hover {
+.light .side .btn-whoaverse:hover {
     background: #666666;
     border: 2px solid #000;
 }
-.leavemoderator{background-color:transparent;}
+.light .leavemoderator{background-color:transparent;}
 
 /* Announcement Bar. */
 
-	.side .titlebox .usertext h6:nth-of-type(1) {
+.light	.side .titlebox .usertext h6:nth-of-type(1) {
 		font-style: normal;
 		font-size: 13px;
 		position: absolute;
@@ -365,20 +365,20 @@ FLAIRS
 		color: white;
 		font-style: normal;
 	}
-	.side .titlebox .usertext h6:nth-of-type(1) a {
+.light	.side .titlebox .usertext h6:nth-of-type(1) a {
 		color: ##4399cd;
 	}
 	@media (max-width: 870px) {
-		.side.show-mobile-sidebar {
+.light		.side.show-mobile-sidebar {
 			left: -1px;
 			padding-top: 280px;
 		}
 	}
 	@media (min-width: 871px) {
-		#container {
+.light		#container {
 			padding-top: 71px;
 		}
-		.side .titlebox .usertext h6:nth-of-type(1) {
+.light		.side .titlebox .usertext h6:nth-of-type(1) {
 			top: 10px;
 			left: 20px;
 			width: calc(100% - 40px);
