@@ -5,14 +5,14 @@
 .light #header {
   background: 
 url(https://i.imgur.com/UBxAxl5.png) center no-repeat, 
--webkit-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 90px), 
--webkit-repeating-linear-gradient(45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 90px), 
--webkit-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 180px), 
--webkit-repeating-linear-gradient(45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 180px), 
--webkit-repeating-linear-gradient(45deg, rgba(255, 255, 255, .5), rgba(255, 255, 255, .5) 1px, transparent 1px, transparent 180px), 
--webkit-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .5) , rgba(255, 255, 255, .5) 1px, transparent 1px, transparent 180px), 
--webkit-repeating-linear-gradient(45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 90px), 
--webkit-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, .2) 1px, transparent 1px, transparent 90px);
+-webkit-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .1) 60px, rgba(255, 255, 255, .9) 70px, transparent 1px, transparent 90px), 
+-webkit-repeating-linear-gradient(45deg, rgba(255, 255, 255, .1) 60px, rgba(255, 255, 255, .9) 70px, transparent 1px, transparent 90px), 
+-webkit-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .1) 60px, rgba(255, 255, 255, .9) 70px, transparent 1px, transparent 180px), 
+-webkit-repeating-linear-gradient(45deg, rgba(255, 255, 255, .1) 60px, rgba(255, 255, 255, .9) 70px, transparent 1px, transparent 180px), 
+-webkit-repeating-linear-gradient(45deg, rgba(24, 24, 24, .5), rgba(24, 24, 24, .5) 1px, transparent 1px, transparent 180px), 
+-webkit-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .5) , rgba(24, 24, 24, .5) 1px, transparent 1px, transparent 180px), 
+-webkit-repeating-linear-gradient(45deg, rgba(24, 24, 24, .2) , rgba(24, 24, 24, .2) 1px, transparent 1px, transparent 90px), 
+-webkit-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .2) , rgba(24, 24, 24, .2) 1px, transparent 1px, transparent 90px);
 
   background: 
 url(http://i.imgur.com/UBxAxl5.png) center no-repeat, 
