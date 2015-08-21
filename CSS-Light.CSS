@@ -249,15 +249,15 @@ FLAIRS
         .light        .tabmenu li.disabled a.contribute {
                     background: none;
                     border: 0;
-                    color: #D681FF;
+                    color: #B122F6;
                     font-weight: normal;
                 }
         .light        .tabmenu li.disabled a.contribute:hover {
                     background: none;
-                    color: #D681FF;
+                    color: #B122F6;
                     border-style: solid none;
                     border-width: 2px;
-                    border-color: #D681FF;
+                    border-color: #B122F6;
                 }
 
             .light    .tabmenu li.selected a {
@@ -276,15 +276,15 @@ FLAIRS
          .light       .tabmenu li.selected a.contribute {
                     background: none;
                     border: 0;
-                    color: #D681FF;
+                    color: #B122F6;
                     font-weight: bold;
                 }
            .light     .tabmenu li.selected a.contribute:hover {
                     background: none;
-                    color: #D681FF;
+                    color: #B122F6;
                     border-style: solid none;
                     border-width: 2px;
-                    border-color: #D681FF;
+                    border-color: #B122F6;
                 }
 
 /* EDIT MODERATOR BOX */
@@ -494,7 +494,7 @@ FLAIRS
 
        .light     .titlebox .md { padding-bottom: 20px; }
 .light                .titlebox .md a { color: #47B1FC; }
-      .light          .titlebox .md a:hover { color: #D681FF; }
+      .light          .titlebox .md a:hover { color: #B122F6; }
 
             .light    .titlebox .md h1,
             .light    .titlebox .md h2,
