@@ -391,33 +391,33 @@ FLAIRS
         /* ! Sidebar dropdowns
         -------------------------------------------------------------------------------- */
 
-.side .md > ul {
+.light .side .md > ul {
     margin: 0px;
     list-style: none;
     width: 100%;
 }
-.side .md > ul li {
+.light .side .md > ul li {
     display: none;
     padding: 4px;
 }
-.side .md > ul li ~ li {
+.light .side .md > ul li ~ li {
     border-top: 1px solid;
 }
-.side .md > ul li:hover {
+.light .side .md > ul li:hover {
     #background: #f7f7f7;
 }
-.side .md > ul li:first-child {
+.light .side .md > ul li:first-child {
     display: block;
     font-weight: bold;
     font-size: 16px;
 }
-.side .md > ul:hover li {
+.light .side .md > ul:hover li {
     display: block;
 }
 
         /* ! Downvote message
         -------------------------------------------------------------------------------- */
-        .arrow-downvote:after{
+ .light       .arrow-downvote:after{
            display:block;
            visibility:hidden;
            position:absolute;
@@ -438,19 +438,19 @@ FLAIRS
            pointer-events:none
         }
 
-        .arrow-downvote:hover:after{
+ .light       .arrow-downvote:hover:after{
            visibility:visible;
            background-color:rgba(24,24,24,0.9);
            color:#FFF;
            margin-left:48px
         }
 
-        .titlebox {
+   .light     .titlebox {
             margin: 10px -20px 0;
             padding: 0px 20px;
             width: auto !important;
         }
-            .titlebox > h1 {
+         .light   .titlebox > h1 {
                 border-bottom: 1px solid #999;
                 font-size: 22px;
                 font-weight: normal;
@@ -460,9 +460,9 @@ FLAIRS
                 text-align: center;
                 text-transform: uppercase;
             }
-                .titlebox h1 a:hover { color: inherit; }
+  .light              .titlebox h1 a:hover { color: inherit; }
 
-            .titlebox .btn-whoaverse-paging, .titlebox .btn-unsub  {
+        .light    .titlebox .btn-whoaverse-paging, .titlebox .btn-unsub  {
                 background: #333;
                 border: 2px solid #333;
                 border-radius: 5px;
@@ -478,48 +478,48 @@ FLAIRS
                 width: 46%;
                 margin:0px 2% 10px;
             }
-            .titlebox .btn-sub{background: #363;border: 2px solid #363;}
-            .titlebox .btn-whoaverse-paging:hover, .titlebox .btn-unsub:hover {
+        .light    .titlebox .btn-sub{background: #363;border: 2px solid #363;}
+         .light   .titlebox .btn-whoaverse-paging:hover, .titlebox .btn-unsub:hover {
                 background: #666;
                 border: 2px solid #000;
                 color: #EEE;
             }
-            .titlebox .btn-sub:hover{background: #393;border: 2px solid #030;}
+ .light           .titlebox .btn-sub:hover{background: #393;border: 2px solid #030;}
 
-            .titlebox .subscribers, .titlebox .users-online {
+       .light     .titlebox .subscribers, .titlebox .users-online {
                 display: block;
                 margin-bottom: 10px;
                 text-align: center;
             }
 
-            .titlebox .md { padding-bottom: 20px; }
-                .titlebox .md a { color: #47B1FC; }
-                .titlebox .md a:hover { color: #D681FF; }
+       .light     .titlebox .md { padding-bottom: 20px; }
+.light                .titlebox .md a { color: #47B1FC; }
+      .light          .titlebox .md a:hover { color: #D681FF; }
 
-                .titlebox .md h1,
-                .titlebox .md h2,
-                .titlebox .md h3,
-                .titlebox .md h4,
-                .titlebox .md h5,
-                .titlebox .md h6 {
+            .light    .titlebox .md h1,
+            .light    .titlebox .md h2,
+             .light   .titlebox .md h3,
+             .light   .titlebox .md h4,
+            .light    .titlebox .md h5,
+             .light   .titlebox .md h6 {
                     border: 0;
                     font-weight: bold;
                     text-align: center;
                 }
-                .titlebox .md h1 { font-size: 18px; }
-                .titlebox .md h2 { font-size: 16px; }
-                .titlebox .md h3 { font-size: 15px; }
-                .titlebox .md h4,
-                .titlebox .md h5,
-                .titlebox .md h6 { font-size: 14px; }
+           .light     .titlebox .md h1 { font-size: 18px; }
+          .light      .titlebox .md h2 { font-size: 16px; }
+           .light     .titlebox .md h3 { font-size: 15px; }
+          .light      .titlebox .md h4,
+           .light     .titlebox .md h5,
+           .light     .titlebox .md h6 { font-size: 14px; }
 
-            .titlebox .bottom {
+         .light   .titlebox .bottom {
                 color: inherit;
                 border-top: 1px solid #999;
                 padding: 10px 0 0;
             }
-                .titlebox .bottom a { color: #47B1FC; }
-                .titlebox .bottom a:hover { color: #FF8821; }
+         .light       .titlebox .bottom a { color: #47B1FC; }
+          .light      .titlebox .bottom a:hover { color: #FF8821; }
 }
 
 
