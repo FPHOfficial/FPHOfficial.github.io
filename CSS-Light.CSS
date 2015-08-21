@@ -157,9 +157,9 @@ repeating-linear-gradient(-45deg, rgba(24, 24, 24, .2) , rgba(24, 24, 24, .2) 1p
 
 .light .promoted {
     float:right;
-    background-color: #333333;
-    padding:5px; border: 1px solid #000000;
-    color:#fff; font-size:14px; font-weight:bold;
+    background-color: #e3e0e0;
+    padding:5px; border: 1px solid #fff;
+    color:#000000; font-size:14px; font-weight:bold;
 }
 .light .stickied .title .may-blank:before {
     content: "Important: ";
