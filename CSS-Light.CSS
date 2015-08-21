@@ -1,29 +1,8 @@
-/* Sidebar image, 280x280 px plz */
-
-.titlebox h4{
-    background: url(https://i.imgur.com/rwESgN3.png);
-    height: 210px;
-    width: 100%;
-    border-radius: 10px;
-    display: block;
-}
-.md h4 a{
-    line-height: 210px;
-    width: 100%;
-    border-radius: 10px;  
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-     display:inline-block;
-}
-.titlebox h1 a { #display:none;
-}
-.whoaversename img {float:right;display:none;}
 
 
 /* ! Header
 -------------------------------------------------------------------------------- */
-#header {
+.light #header {
   background: 
 url(https://i.imgur.com/EXqWwgp.png) center no-repeat, 
 -webkit-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .1) 60px, rgba(24, 24, 24, .9) 70px, transparent 1px, transparent 90px), 
@@ -75,7 +54,7 @@ repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, 
     margin: 0;
 }
 
-#header:after {
+.light #header:after {
   content: " ";
   font-size: -webkit-xxx-large;
   color: white;
@@ -91,48 +70,48 @@ repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, 
 }
 
 @media ( max-width: 550px ) {
-#header {
+.light #header {
     background-size: 300%;
     height: 250px;
 }
 }
-    #header-container,
+.light    #header-container,
     #sr-header-area {
         background: transparent;
         border: 0;
     }
-        #sr-header-area .selected a { color: #317FB7; }
+.light        #sr-header-area .selected a { color: #317FB7; }
 
-        #sr-header-area .sr-list { margin-right: 59px; }
-            .sr-list li a { color: #D0D0D0; }
+ .light       #sr-header-area .sr-list { margin-right: 59px; }
+     .light         .sr-list li a { color: #D0D0D0; }
 
-            #sr-bar li a { color: #999; }
-            #sr-header-area:hover #sr-bar li a { color: #D0D0D0; }
+      .light        #sr-bar li a { color: #999; }
+    .light          #sr-header-area:hover #sr-bar li a { color: #D0D0D0; }
 
-        #header-img {
+     .light     #header-img {
             background: url( https://i.imgur.com/Yc8q9AO.png );
             padding-left: 112px;
         }
 
-        #sr-more-link:hover {
+   .light       #sr-more-link:hover {
             color: #FFF;
             background: #317FB7;
         }
 
             /* ! Header | Sub menu
             -------------------------------------------------------------------------------- */
-            .whoaSubscriptionMenu li ul {
+.light            .whoaSubscriptionMenu li ul {
                 border: 1px solid;
                 border-color: #333 #222 #222;
                 box-shadow: 3px 3px 3px hsla( 0,0%,0%,0.2 );
             }
-                .whoaSubscriptionMenu li ul li a:link,
-                .whoaSubscriptionMenu li ul li a:visited {
+   .light             .whoaSubscriptionMenu li ul li a:link,
+   .light             .whoaSubscriptionMenu li ul li a:visited {
                     background: #333;
                     border-bottom: 1px solid #222;
                     color: #FFF;
                 }
-                .whoaSubscriptionMenu li ul li a:hover {
+    .light            .whoaSubscriptionMenu li ul li a:hover {
                     background: #47B1FC;
                     background: -webkit-linear-gradient( top,#47B1FC,#3797DC );
                     background:    -moz-linear-gradient( top,#47B1FC,#3797DC );
@@ -142,22 +121,22 @@ repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, 
                 }
 
             /* Menu drop arrow icon */
-            .drop-arrow { border-color: #D0D0D0 transparent transparent; }
+   .light         .drop-arrow { border-color: #D0D0D0 transparent transparent; }
 
-        #sr-more-link {
+.light        #sr-more-link {
             background: none;
             color: #CCC;
         }
 
         /* ! Header | Sub name
         -------------------------------------------------------------------------------- */
-        .pagename {
+.light        .pagename {
             font-size: 24px;
             letter-spacing: -1px;
             text-transform: uppercase;
             margin-bottom: 9px;
         }
-            .pagename a {
+ .light           .pagename a {
                 color: #E0E0E0;
                 border-style: solid none;
                 border-width: 2px;
@@ -165,7 +144,7 @@ repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, 
                 padding: 0;
                 margin: 0 12px;
             }
-            .pagename a:hover {
+  .light          .pagename a:hover {
                 color: #E0E0E0;
                 border-style: solid none;
                 border-width: 2px;
@@ -176,13 +155,13 @@ repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, 
 
 /* Sticky */
 
-.promoted {
+.light .promoted {
     float:right;
     background-color: #333333;
     padding:5px; border: 1px solid #000000;
     color:#fff; font-size:14px; font-weight:bold;
 }
-.stickied .title .may-blank:before {
+.light .stickied .title .may-blank:before {
     content: "Important: ";
     color: #ff2222;
     border: 0px;
@@ -190,11 +169,11 @@ repeating-linear-gradient(-45deg, rgba(255, 255, 255, .2) , rgba(255, 255, 255, 
     width:auto;
     margin:0px;
 }
-.stickied {
+.light .stickied {
 border:1px solid #000;
 border-radius: 5px;
 }
-.moderator{
+.light .moderator{
 color:#3FBF4C !important;
 }
 
@@ -236,7 +215,7 @@ FLAIRS
     }
 
 
-.flair:empty {
+.light .flair:empty {
     /* fix for unflaired discussion pages */
     display: none; }
 
@@ -245,20 +224,20 @@ FLAIRS
 
         /* ! Header | Tab menu
         -------------------------------------------------------------------------------- */
-        .tabmenu { font-size: 16px; }
-            .tabmenu li { text-transform: uppercase; }
-                .tabmenu li a {
+  .light      .tabmenu { font-size: 16px; }
+    .light        .tabmenu li { text-transform: uppercase; }
+     .light           .tabmenu li a {
                     margin: 0 3px;
                     padding: 6px 0;
                 }
 
-                .tabmenu li.disabled a {
+         .light       .tabmenu li.disabled a {
                     color: #E0E0E0;background: transparent;
                 }
-                .tabmenu li.disabled{background: none;}
-                .tabmenu li.disabled a,
-                .tabmenu li.selected a { border: 0; border-radius: 0; }
-                .tabmenu li.disabled a:hover {
+            .light    .tabmenu li.disabled{background: none;}
+            .light    .tabmenu li.disabled a,
+             .light   .tabmenu li.selected a { border: 0; border-radius: 0; }
+              .light  .tabmenu li.disabled a:hover {
                     color: #E0E0E0;
                     background: none;
                     border: 0;
@@ -267,13 +246,13 @@ FLAIRS
                     border-color: #E0E0E0;
                     box-shadow: none;
                 }
-                .tabmenu li.disabled a.contribute {
+        .light        .tabmenu li.disabled a.contribute {
                     background: none;
                     border: 0;
                     color: #D681FF;
                     font-weight: normal;
                 }
-                .tabmenu li.disabled a.contribute:hover {
+        .light        .tabmenu li.disabled a.contribute:hover {
                     background: none;
                     color: #D681FF;
                     border-style: solid none;
@@ -281,26 +260,26 @@ FLAIRS
                     border-color: #D681FF;
                 }
 
-                .tabmenu li.selected a {
+            .light    .tabmenu li.selected a {
                     background: none;
                     border: 0;
                     box-shadow: none;
                     color: #E0E0E0;
                     font-weight: bold;
                 }
-                .tabmenu li.selected a:hover {
+         .light       .tabmenu li.selected a:hover {
                     color: #E0E0E0;
                     border-style: solid none;
                     border-width: 2px;
                     border-color: #E0E0E0;
                 }
-                .tabmenu li.selected a.contribute {
+         .light       .tabmenu li.selected a.contribute {
                     background: none;
                     border: 0;
                     color: #D681FF;
                     font-weight: bold;
                 }
-                .tabmenu li.selected a.contribute:hover {
+           .light     .tabmenu li.selected a.contribute:hover {
                     background: none;
                     color: #D681FF;
                     border-style: solid none;
@@ -309,8 +288,8 @@ FLAIRS
                 }
 
 /* EDIT MODERATOR BOX */
-.side .helplink + .title h1 { display: none; }
-.side .helplink + .title::before { 
+.light .side .helplink + .title h1 { display: none; }
+.light .side .helplink + .title::before { 
     content: 'THE FOURTH REICH';
     display: block;
     font-size: 130%;
@@ -322,30 +301,30 @@ FLAIRS
 
         /* ! Header | Account
         -------------------------------------------------------------------------------- */
-        .logged-in {
+ .light       .logged-in {
             color: #D0D0D0;
             background: none;
             border: 0;
             border-radius: 0;
         }
-        .logged-out {
+.light        .logged-out {
             color: #D0D0D0;
             background: none;
             border: 0;
             border-radius: 0;
         }
-            #header-account a,
-            #header-account .logged-out a { color: #D0D0D0; }
-            #header-account a:hover { color: #317FB7; }
+ .light           #header-account a,
+   .light         #header-account .logged-out a { color: #D0D0D0; }
+   .light         #header-account a:hover { color: #317FB7; }
 
-            #header-account .separator {
+     .light       #header-account .separator {
                 margin: 0;
                 visibility: hidden;
             }
 
 /* ! Container
 -------------------------------------------------------------------------------- */
-#container {
+.light #container {
     background: none;
     border: 0;
     border-radius: 0;
@@ -354,7 +333,7 @@ FLAIRS
 
 /* Submit Buttons */
 
-.md h2, .side .btn-whoaverse, btn-default, .side .md > ul, .side .md > ul li:first-child {
+.light .md h2, .side .btn-whoaverse, btn-default, .side .md > ul, .side .md > ul li:first-child {
     background: #333333;
     text-align: center;
     color: white;
@@ -362,18 +341,18 @@ FLAIRS
     border-radius: 5px;
     border:0px;
 }
-.side a.btn-whoaverse { color: #fff;
+.light .side a.btn-whoaverse { color: #fff;
     font-size:1em; 
     border: 2px solid #333;}
-.side .btn-whoaverse:hover {
+.light .side .btn-whoaverse:hover {
     background: #666666;
     border: 2px solid #000;
 }
-.leavemoderator{background-color:transparent;}
+.light .leavemoderator{background-color:transparent;}
 
 /* Announcement Bar. */
 
-	.side .titlebox .usertext h6:nth-of-type(1) {
+.light	.side .titlebox .usertext h6:nth-of-type(1) {
 		font-style: normal;
 		font-size: 13px;
 		position: absolute;
@@ -386,20 +365,20 @@ FLAIRS
 		color: white;
 		font-style: normal;
 	}
-	.side .titlebox .usertext h6:nth-of-type(1) a {
+.light	.side .titlebox .usertext h6:nth-of-type(1) a {
 		color: ##4399cd;
 	}
 	@media (max-width: 870px) {
-		.side.show-mobile-sidebar {
+.light		.side.show-mobile-sidebar {
 			left: -1px;
 			padding-top: 280px;
 		}
 	}
 	@media (min-width: 871px) {
-		#container {
+.light		#container {
 			padding-top: 71px;
 		}
-		.side .titlebox .usertext h6:nth-of-type(1) {
+.light		.side .titlebox .usertext h6:nth-of-type(1) {
 			top: 10px;
 			left: 20px;
 			width: calc(100% - 40px);
@@ -412,33 +391,33 @@ FLAIRS
         /* ! Sidebar dropdowns
         -------------------------------------------------------------------------------- */
 
-.side .md > ul {
+.light .side .md > ul {
     margin: 0px;
     list-style: none;
     width: 100%;
 }
-.side .md > ul li {
+.light .side .md > ul li {
     display: none;
     padding: 4px;
 }
-.side .md > ul li ~ li {
+.light .side .md > ul li ~ li {
     border-top: 1px solid;
 }
-.side .md > ul li:hover {
+.light .side .md > ul li:hover {
     #background: #f7f7f7;
 }
-.side .md > ul li:first-child {
+.light .side .md > ul li:first-child {
     display: block;
     font-weight: bold;
     font-size: 16px;
 }
-.side .md > ul:hover li {
+.light .side .md > ul:hover li {
     display: block;
 }
 
         /* ! Downvote message
         -------------------------------------------------------------------------------- */
-        .arrow-downvote:after{
+ .light       .arrow-downvote:after{
            display:block;
            visibility:hidden;
            position:absolute;
@@ -459,19 +438,19 @@ FLAIRS
            pointer-events:none
         }
 
-        .arrow-downvote:hover:after{
+ .light       .arrow-downvote:hover:after{
            visibility:visible;
            background-color:rgba(24,24,24,0.9);
            color:#FFF;
            margin-left:48px
         }
 
-        .titlebox {
+   .light     .titlebox {
             margin: 10px -20px 0;
             padding: 0px 20px;
             width: auto !important;
         }
-            .titlebox > h1 {
+         .light   .titlebox > h1 {
                 border-bottom: 1px solid #999;
                 font-size: 22px;
                 font-weight: normal;
@@ -481,9 +460,9 @@ FLAIRS
                 text-align: center;
                 text-transform: uppercase;
             }
-                .titlebox h1 a:hover { color: inherit; }
+  .light              .titlebox h1 a:hover { color: inherit; }
 
-            .titlebox .btn-whoaverse-paging, .titlebox .btn-unsub  {
+        .light    .titlebox .btn-whoaverse-paging, .titlebox .btn-unsub  {
                 background: #333;
                 border: 2px solid #333;
                 border-radius: 5px;
@@ -499,48 +478,48 @@ FLAIRS
                 width: 46%;
                 margin:0px 2% 10px;
             }
-            .titlebox .btn-sub{background: #363;border: 2px solid #363;}
-            .titlebox .btn-whoaverse-paging:hover, .titlebox .btn-unsub:hover {
+        .light    .titlebox .btn-sub{background: #363;border: 2px solid #363;}
+         .light   .titlebox .btn-whoaverse-paging:hover, .titlebox .btn-unsub:hover {
                 background: #666;
                 border: 2px solid #000;
                 color: #EEE;
             }
-            .titlebox .btn-sub:hover{background: #393;border: 2px solid #030;}
+ .light           .titlebox .btn-sub:hover{background: #393;border: 2px solid #030;}
 
-            .titlebox .subscribers, .titlebox .users-online {
+       .light     .titlebox .subscribers, .titlebox .users-online {
                 display: block;
                 margin-bottom: 10px;
                 text-align: center;
             }
 
-            .titlebox .md { padding-bottom: 20px; }
-                .titlebox .md a { color: #47B1FC; }
-                .titlebox .md a:hover { color: #D681FF; }
+       .light     .titlebox .md { padding-bottom: 20px; }
+.light                .titlebox .md a { color: #47B1FC; }
+      .light          .titlebox .md a:hover { color: #D681FF; }
 
-                .titlebox .md h1,
-                .titlebox .md h2,
-                .titlebox .md h3,
-                .titlebox .md h4,
-                .titlebox .md h5,
-                .titlebox .md h6 {
+            .light    .titlebox .md h1,
+            .light    .titlebox .md h2,
+             .light   .titlebox .md h3,
+             .light   .titlebox .md h4,
+            .light    .titlebox .md h5,
+             .light   .titlebox .md h6 {
                     border: 0;
                     font-weight: bold;
                     text-align: center;
                 }
-                .titlebox .md h1 { font-size: 18px; }
-                .titlebox .md h2 { font-size: 16px; }
-                .titlebox .md h3 { font-size: 15px; }
-                .titlebox .md h4,
-                .titlebox .md h5,
-                .titlebox .md h6 { font-size: 14px; }
+           .light     .titlebox .md h1 { font-size: 18px; }
+          .light      .titlebox .md h2 { font-size: 16px; }
+           .light     .titlebox .md h3 { font-size: 15px; }
+          .light      .titlebox .md h4,
+           .light     .titlebox .md h5,
+           .light     .titlebox .md h6 { font-size: 14px; }
 
-            .titlebox .bottom {
+         .light   .titlebox .bottom {
                 color: inherit;
                 border-top: 1px solid #999;
                 padding: 10px 0 0;
             }
-                .titlebox .bottom a { color: #47B1FC; }
-                .titlebox .bottom a:hover { color: #FF8821; }
+         .light       .titlebox .bottom a { color: #47B1FC; }
+          .light      .titlebox .bottom a:hover { color: #FF8821; }
 }
 
 
