@@ -15,7 +15,7 @@ url(https://i.imgur.com/UBxAxl5.png) center no-repeat,
 -webkit-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .2) , rgba(24, 24, 24, .2) 1px, transparent 1px, transparent 90px);
 
   background: 
-url(http://i.imgur.com/UBxAxl5.png) center no-repeat, 
+url(https://i.imgur.com/UBxAxl5.png) center no-repeat, 
 -moz-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .1) 60px, rgba(255, 255, 255, .9) 70px, transparent 1px, transparent 90px), 
 -moz-repeating-linear-gradient(45deg, rgba(255, 255, 255, .1) 60px, rgba(255, 255, 255, .9) 70px, transparent 1px, transparent 90px), 
 -moz-repeating-linear-gradient(-45deg, rgba(255, 255, 255, .1) 60px, rgba(255, 255, 255, .9) 70px, transparent 1px, transparent 180px), 
@@ -37,7 +37,7 @@ url(https://i.imgur.com/rFnHzrq.png) center no-repeat,
 -o-repeating-linear-gradient(-45deg, rgba(24, 24, 24, .2) , rgba(24, 24, 24, .2) 1px, transparent 1px, transparent 90px);
 
   background: 
-url(http://i.imgur.com/UBxAxl5.png) center no-repeat, 
+url(https://i.imgur.com/UBxAxl5.png) center no-repeat, 
 repeating-linear-gradient(-45deg, rgba(255, 255, 255, .1) 60px, rgba(255, 255, 255, .9) 70px, transparent 1px, transparent 90px), 
 repeating-linear-gradient(45deg, rgba(255, 255, 255, .1) 60px, rgba(255, 255, 255, .9) 70px, transparent 1px, transparent 90px), 
 repeating-linear-gradient(-45deg, rgba(255, 255, 255, .1) 60px, rgba(255, 255, 255, .9) 70px, transparent 1px, transparent 180px), 
@@ -89,7 +89,7 @@ repeating-linear-gradient(-45deg, rgba(24, 24, 24, .2) , rgba(24, 24, 24, .2) 1p
     .light          #sr-header-area:hover #sr-bar li a { color: #D0D0D0; }
 
      .light     #header-img {
-            background: url( https://i.imgur.com/Yc8q9AO.png );
+            background: url( https://i.imgur.com/2mQRemE.png );
             padding-left: 112px;
         }
 
