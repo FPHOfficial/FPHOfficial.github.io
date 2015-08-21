@@ -137,7 +137,7 @@ repeating-linear-gradient(-45deg, rgba(24, 24, 24, .2) , rgba(24, 24, 24, .2) 1p
             margin-bottom: 9px;
         }
  .light           .pagename a {
-                color: #E0E0E0;
+                color: #000000;
                 border-style: solid none;
                 border-width: 2px;
                 border-color: transparent;
@@ -145,10 +145,10 @@ repeating-linear-gradient(-45deg, rgba(24, 24, 24, .2) , rgba(24, 24, 24, .2) 1p
                 margin: 0 12px;
             }
   .light          .pagename a:hover {
-                color: #E0E0E0;
+                color: #000000;
                 border-style: solid none;
                 border-width: 2px;
-                border-color: #E0E0E0;
+                border-color: #000000;
                 text-decoration: none;
             }
 
@@ -232,18 +232,18 @@ FLAIRS
                 }
 
          .light       .tabmenu li.disabled a {
-                    color: #E0E0E0;background: transparent;
+                    color: #000000;background: transparent;
                 }
             .light    .tabmenu li.disabled{background: none;}
             .light    .tabmenu li.disabled a,
              .light   .tabmenu li.selected a { border: 0; border-radius: 0; }
               .light  .tabmenu li.disabled a:hover {
-                    color: #E0E0E0;
+                    color: #000000;
                     background: none;
                     border: 0;
                     border-style: solid none;
                     border-width: 2px;
-                    border-color: #E0E0E0;
+                    border-color: #000000;
                     box-shadow: none;
                 }
         .light        .tabmenu li.disabled a.contribute {
@@ -264,14 +264,14 @@ FLAIRS
                     background: none;
                     border: 0;
                     box-shadow: none;
-                    color: #E0E0E0;
+                    color: #000000;
                     font-weight: bold;
                 }
          .light       .tabmenu li.selected a:hover {
-                    color: #E0E0E0;
+                    color: #000000;
                     border-style: solid none;
                     border-width: 2px;
-                    border-color: #E0E0E0;
+                    border-color: #000000;
                 }
          .light       .tabmenu li.selected a.contribute {
                     background: none;
