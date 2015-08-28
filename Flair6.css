@@ -44,7 +44,6 @@ a[href$="/user/fuoco"]:after,
 a[href$="/user/TotalCult"]:after,
 a[href$="/user/tom-bombadil"]:after,
 a[href$="/user/IamtheDreadLobster"]:after,
-a[href$="/user/thisuserhatesyou"]:after,
 a[href$="/user/Phillyshitlord"]:after,
 a[href$="/user/nomi_malone"]:after,
 a[href$="/user/Pathogenesis25"]:after,
@@ -165,6 +164,7 @@ a[href$="/user/raznog"]:after
 /* "Verified Shitlady" flair */
 
 a[href$="/user/TattooedWife"]:after,
+a[href$="/user/thisuserhatesyou"]:after,
 a[href$="/user/i_am_the_ginger"]:after,
 a[href$="/user/GenevieveJenkins"]:after,
 a[href$="/user/eat_a_dick_por_favor"]:after,
