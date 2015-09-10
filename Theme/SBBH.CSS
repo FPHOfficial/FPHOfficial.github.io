@@ -51,7 +51,7 @@
 
 body {
     background: #292929;
-    color: #36e11b;
+    color: #DFDFDF;
     font: 11px Arial,sans-serif;
     line-height: 1.43;
     margin: 0;
@@ -120,7 +120,7 @@ label {
 .md a[href="#s"]:hover::after,
 .md a[href="#s"]:focus::after,
 .md a[href="#s"]:active::after {
-    color: #36e11b;
+    color: #DFDFDF;
     background: #4E2E2E;
 }
 
@@ -170,7 +170,7 @@ label {
     background: #292929;
     border-width: 5px 1px 1px;
     border-color: #6F64BA #222 #222;
-    color: #36e11b;
+    color: #DFDFDF;
     font-size: 12px;
 }
 
@@ -179,7 +179,7 @@ label {
     border-color: #9D3131;
     border-style: solid;
     border-width: 0 0 1px 0;
-    color: #36e11b;
+    color: #DFDFDF;
     font-size: 12px;
     margin-bottom: 10px;
     padding: 0 5px 0 5px;
@@ -190,7 +190,7 @@ label {
     border: 1px solid #292929;
     border-radius: 2px;
     box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.07);
-    color: #36e11b;
+    color: #DFDFDF;
     font-size: 12px;
     margin: 10px auto;
 }
